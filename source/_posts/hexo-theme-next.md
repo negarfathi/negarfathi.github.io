@@ -4,4 +4,4 @@ title: Introduction
 
 ### Hi
 
-My name is Negar!
+My name is Negar Fathi!
