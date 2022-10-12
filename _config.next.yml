@@ -1,0 +1,257 @@
+#################################################################
+###################### NexT Configuration #######################
+#################################################################
+
+# ============================================================= #
+# ============= Theme Core Configuration Settings ============= #
+# ============================================================= #
+
+custom_file_path:
+  sidebar: source/_data/sidebar.njk
+  footer: source/_data/footer.njk
+  variable: source/_data/variables.styl
+  style: source/_data/styles.styl
+
+
+# ============================================================= #
+# ====================== Scheme Settings ====================== #
+# ============================================================= #
+
+#scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini
+
+darkmode: false
+
+
+# ============================================================= #
+# ================= Site Information Settings ================= #
+# ============================================================= #
+
+creative_commons:
+  license: by-nc-sa
+  size: big
+  sidebar: true
+
+
+# ============================================================= #
+# ======================= Menu Settings ======================= #
+# ============================================================= #
+
+menu:
+  home: / || fa fa-bell
+
+  Docs:
+    default: /docs/ || fa fa-book
+
+  #Plugins: /plugins/ || fa fa-flask
+  archives: /archives/ || fa fa-archive
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+menu_settings:
+  icons: true
+  badges: true
+
+
+# ============================================================= #
+# ===================== Sidebar Settings ====================== #
+# ============================================================= #
+
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+avatar:
+  url: /images/logo.svg
+  rounded: true
+
+social:
+  GitHub: https://github.com/negarfathi || fab fa-github
+  RSS: /atom.xml || fa fa-rss
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: true
+
+toc:
+  enable: false
+  number: true
+  wrap: true
+
+
+# ============================================================= #
+# ====================== Footer Settings ====================== #
+# ============================================================= #
+
+footer:
+  since: 2022
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#808080"
+  copyright: NexT
+
+
+# ============================================================= #
+# ======================= Post Settings ======================= #
+# ============================================================= #
+
+post_meta:
+  updated_at:
+    enable: false
+
+symbols_count_time:
+  separated_meta: true
+  item_text_total: true
+
+post_edit:
+  enable: false
+  url: https://github.com/next-theme/theme-next-docs/edit/master/source/
+
+
+# ============================================================= #
+# ==================== Misc Theme Settings ==================== #
+# ============================================================= #
+
+mobile_layout_economy: true
+
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  copy_button:
+    enable: true
+    style: default
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+github_banner:
+  enable: true
+  permalink: https://github.com/negarfathi
+  title: My GitHub
+
+font:
+  enable: true
+  host: //fonts.loli.net
+  codes:
+    external: true
+    family: Inconsolata
+
+
+# ============================================================= #
+# ======================= SEO Settings ======================== #
+# ============================================================= #
+
+index_with_subtitle: true
+
+exturl: true
+
+google_site_verification: 5AUIVYTbHIAuz-eQtxSfZbWW5eg9_EVZMSQycIuXrG0
+
+
+# ============================================================= #
+# =============== Third Party Services Settings =============== #
+# ============================================================= #
+
+math:
+  mathjax:
+    enable: true
+    tags: ams
+
+pjax: true
+
+mediumzoom: true
+
+
+# ============================================================= #
+# =================== Comments and Widgets ==================== #
+# ============================================================= #
+
+comments:
+  lazyload: true
+
+disqus:
+  enable: false
+  shortname: next-theme
+  count: true
+
+
+# ============================================================= #
+# ================= Statistics and Analytics ================== #
+# ============================================================= #
+
+google_analytics:
+  tracking_id: UA-108155018-3
+
+
+# ============================================================= #
+# ====================== Search Services ====================== #
+# ============================================================= #
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+
+
+# ============================================================= #
+# ======================= Chat Services ======================= #
+# ============================================================= #
+
+gitter:
+  enable: false
+  room: hexo-next/community
+
+
+# ============================================================= #
+# ======================== Tag Plugins ======================== #
+# ============================================================= #
+
+note:
+  style: simple
+  icons: true
+  light_bg_offset: -3
+
+tabs:
+  transition:
+    tabs: true
+    labels: true
+
+mermaid:
+  enable: true
+
+
+# ============================================================= #
+# ==================== External Libraries ===================== #
+# ============================================================= #
+
+motion:
+  async: true
+
+vendors:
+  internal: cdnjs
+  plugins: cdnjs
+
+# A button to open designated chat widget in sidebar.
+# Firstly, you need to enable and configure the chat service.
+chat:
+  enable: false
+  icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
+  text: Chat # Button text, change it as you wish.
+
+# Chatra Support
+# For more information: https://chatra.com
+# Dashboard: https://app.chatra.io/settings/general
+chatra:
+  enable: false
+  async: true
+  id: # Visit Dashboard to get your ChatraID
+  #embed: # Unfinished experimental feature for developers. See: https://chatra.com/help/api/#injectto
