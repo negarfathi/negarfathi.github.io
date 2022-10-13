@@ -30,7 +30,6 @@ C# Programming-Beginner Certification, [LAITEC](https://www.laitec.ir/) (belongs
 ASP.NET, and ASP.NET MVC - .Net Framework, [LAITE](https://www.laitec.ir/)
 
 
-
 # Honors and Awards
 **Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Iran, **<span style="color:grey">2017</span>**
 **Ranked 1st** among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Iran, **<span style="color:grey">2021</span>**
