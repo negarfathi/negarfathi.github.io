@@ -17,7 +17,6 @@ title: About Me
 *<span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>*
 
 # Research Interests
-<p>
 - Software Testing
 - Refactoring
 - Code Generation
@@ -26,8 +25,7 @@ title: About Me
 - Design of Programing Languages
 - Modeling and Simulation of Computer Systms
 - Evaluation of performance and reliability
-</p>
-<p>
+
 - Database and Data Warehouse
 - Information Retrieval and Text Mining
 - Web Mining
@@ -38,8 +36,7 @@ title: About Me
 - Image Processing
 - Pattern Recognition
 - Natural language processing (NLP)
-</p>
-<p>
+
 - Distributed Systems
 - Grid Computing
 - Cloud and Fog Computing
@@ -48,10 +45,9 @@ title: About Me
 - High Performance Computing
 - Computer Networks
 - Network Security
-</p>
 
 # Technical Skills
-<table style="width:90%">
+<table style="width:100%">
    <tr>
       <td style="width:33%">Visual Paradigm</td>
       <td style="width:34%">ELKI</td>
