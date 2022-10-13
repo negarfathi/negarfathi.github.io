@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: About My Master's Thesis
 ---
 
 ### Hi
