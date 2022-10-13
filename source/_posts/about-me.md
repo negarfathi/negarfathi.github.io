@@ -20,7 +20,7 @@ title: About Me
 
 
 # Technical Skills
-<table style="width:90%">
+<table style="width:99%; border-style: dotted;">
    <tr>
       <td style="width:33%">Visual Paradigm</td>
       <td style="width:33%">Python</td>
@@ -72,10 +72,6 @@ title: About Me
       <td style="width:33%">Python</td>
    </tr>
 </table>
-rjg9irejg                                        voenvorv
-inewfinre					jfrjforejg
-- virjoi                                     - joirjgr
-- ofreoiu						- oirvrjv
 
 # Professional Experience
 - **Internship**
