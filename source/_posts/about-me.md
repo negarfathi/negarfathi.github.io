@@ -22,56 +22,60 @@ title: About Me
 # Technical Skills
 <table style="width:90%">
    <tr>
-      <td style="width:30%">Visual Paradigm</td>
-      <td style="width:30%">Python</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">Visual Paradigm</td>
+      <td style="width:33%">Python</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">IBM Rational Rose</td>
-      <td style="width:30%">ASP.NET</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">IBM Rational Rose</td>
+      <td style="width:33%">ASP.NET</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">Balsamiq</td>
-      <td style="width:30%">IntelliTest</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">Balsamiq</td>
+      <td style="width:33%">IntelliTest</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">Qlikview</td>
-      <td style="width:30%">NUnit</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">Qlikview</td>
+      <td style="width:33%">NUnit</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">Microsoft SQL Server</td>
-      <td style="width:30%">Z3 Theorem Prover</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">Microsoft SQL Server</td>
+      <td style="width:33%">Z3 Theorem Prover</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">PostgreSQL</td>
-      <td style="width:30%">CVC4</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">PostgreSQL</td>
+      <td style="width:33%">CVC4</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">Weka</td>
-      <td style="width:30%">Coco/R</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">Weka</td>
+      <td style="width:33%">Coco/R</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">ELKI</td>
-      <td style="width:30%">.NET Compiler Platform (Roslyn)</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">ELKI</td>
+      <td style="width:33%">.NET Compiler Platform (Roslyn)</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">ProM tools</td>
-      <td style="width:30%">WordPress</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">ProM tools</td>
+      <td style="width:33%">WordPress</td>
+      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:30%">C#</td>
-      <td style="width:30%">NS-2</td>
-      <td style="width:30%">Python</td>
+      <td style="width:33%">C#</td>
+      <td style="width:33%">NS-2</td>
+      <td style="width:33%">Python</td>
    </tr>
 </table>
+rjg9irejg                                        voenvorv
+inewfinre					jfrjforejg
+- virjoi                                     - joirjgr
+- ofreoiu						- oirvrjv
 
 # Professional Experience
 - **Internship**
