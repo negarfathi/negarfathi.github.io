@@ -42,7 +42,7 @@ title: About Me
 - NS-2
 
 # Professional Experience
-**Internship**
+- **Internship**
 Analysis of customer relationship management system
 This internship included the preparation of organization chart, task description, context diagram, description of external entities, description of data flow lines, operation diagram, BPMN diagram, use cases diagram, sequence diagram, collaboration diagram, class diagram, and creating wireframe for customer relationship management system. In this regard, IBM Rational Rose and Balsamiq software were used.
 *<span style="color:grey">Tavan Tadbir Koosha, Tehran, Iran</span>*
