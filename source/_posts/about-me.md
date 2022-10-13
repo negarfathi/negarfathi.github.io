@@ -2,6 +2,7 @@
 title: About Me
 ---
 
+<p>
 # Education
 
 **<span style="color:blue">Master of Science in Computer Engineering – Software</span>**
@@ -17,3 +18,19 @@ title: About Me
 ***GPA:** 17.29/20.00 (**Ranked 1st**)*
 ***Final Project Topic:** “Study and Investigation of Routing Protocols in Wireless Sensor Networks” (**Grade:** 19.5/20)*
 *<span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>*
+</p>
+
+<p>
+# Research Interests
+
+</p>
+
+<p>
+# Technical Skills
+
+</p>
+
+<p>
+# Academic Projects
+
+</p>
