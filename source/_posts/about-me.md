@@ -1,10 +1,15 @@
 ---
-title: About Me ...
+title: About Me
 ---
 
-### Education
+## Education
 
 **Master of Science in Computer Engineering – Software**
+
+
+<span style="color:blue">Master of Science in Computer Engineering – Software</span>
+
+
 Iran University of Science and Technology, Tehran, Iran
 2018 - 2021
 **GPA:** 18.69/20.00 (**Ranked 1st**)
