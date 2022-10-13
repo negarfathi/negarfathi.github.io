@@ -1,7 +1,7 @@
 ---
-title: Introduction
+title: CV
 ---
 
 ### Hi
 
-My name is Negar!
+My name is Negar Fathi!
