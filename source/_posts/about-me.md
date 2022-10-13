@@ -25,32 +25,34 @@ Databases
 Information Retrieval
 Data Mining
 Big Data
-Artificial intelligence
-Machine learning
+Artificial intelligence and Machine learning
+Distributed Systems
 Cloud Computing
 Internet of Things
+High Performance Computing
+Computer Networks
 
 # Technical Skills
-- Visual Paradigm
-- IBM Rational Rose
-- Balsamiq
-- Qlikview
-- Microsoft SQL Server
-- PostgreSQL
-- Weka
-- ELKI
-- ProM tools
-- C#
-- Python
-- ASP.NET
-- IntelliTest
-- NUnit
-- Z3 Theorem Prover
-- CVC4
-- Coco/R
-- .NET Compiler Platform (Roslyn)
-- WordPress
-- NS-2
+Visual Paradigm
+IBM Rational Rose
+Balsamiq
+Qlikview
+Microsoft SQL Server
+PostgreSQL
+Weka
+ELKI
+ProM tools
+C#
+Python
+ASP.NET
+IntelliTest
+NUnit
+Z3 Theorem Prover
+CVC4
+Coco/R
+.NET Compiler Platform (Roslyn)
+WordPress
+NS-2
 
 # Professional Experience
 - **Internship**
