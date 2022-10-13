@@ -260,7 +260,7 @@ By default NexT shows `Table Of Contents (TOC)` in the sidebar. You can disable 
 
 ```yml NexT config file
 toc:
-  enable: false
+  enable: true
 ```
 <!-- endtab -->
 
@@ -269,7 +269,7 @@ By default NexT adds list number to TOC automatically. You can disable it by set
 
 ```yml NexT config file
 toc:
-  number: false
+  number: true
 ```
 <!-- endtab -->
 
