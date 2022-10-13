@@ -74,7 +74,7 @@ By default NexT shows Hexo and Theme & scheme information like `Powered by Hexo 
 
 ```yml NexT config file
 footer:
-  powered: false
+  powered: true
 ```
 
 #### Site Beian Information
@@ -84,7 +84,7 @@ Beian information is for Chinese users. By default NexT will not show the inform
 ```yml NexT config file
 footer:
   beian:
-    enable: false
+    enable: true
     icp: 京ICP备 1234567890号-1
     gongan_id: 1234567890
     gongan_num: 京公网安备 1234567890号
