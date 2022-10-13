@@ -20,16 +20,7 @@ title: About Me
 
 
 # Technical Skills
-- Visual Paradigm
-- IBM Rational Rose
-- Balsamiq
-- Qlikview
-- Microsoft SQL Server
-- PostgreSQL
-- Weka
-- ELKI
-- ProM tools
-- C#
+
 - Python
 - ASP.NET
 - IntelliTest
@@ -41,14 +32,33 @@ title: About Me
 - WordPress
 - NS-2
 
-<table border="0">
- <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
- </tr>
- <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
+<table>
+   <tr>
+      <td>
+         - Visual Paradigm
+         - IBM Rational Rose
+         - Balsamiq
+         - Qlikview
+         - Microsoft SQL Server
+         - PostgreSQL
+         - Weka
+         - ELKI
+         - ProM tools
+         - C#
+    </td>
+       <tr>
+      <td>
+         - Python
+         - ASP.NET
+         - IntelliTest
+         - NUnit
+         - Z3 Theorem Prover
+         - CVC4
+         - Coco/R
+         - .NET Compiler Platform (Roslyn)
+         - WordPress
+         - NS-2
+    </td>
  </tr>
 </table>
 
