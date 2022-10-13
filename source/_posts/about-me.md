@@ -20,46 +20,47 @@ title: About Me
 
 
 # Technical Skills
-
-- Python
-- ASP.NET
-- IntelliTest
-- NUnit
-- Z3 Theorem Prover
-- CVC4
-- Coco/R
-- .NET Compiler Platform (Roslyn)
-- WordPress
-- NS-2
-
 <table>
-   <td>
-      <tr>
-         - Visual Paradigm
-         - IBM Rational Rose
-         - Balsamiq
-         - Qlikview
-         - Microsoft SQL Server
-         - PostgreSQL
-         - Weka
-         - ELKI
-         - ProM tools
-         - C#
-      </tr>
-   <td>
-      <tr>
-         - Python
-         - ASP.NET
-         - IntelliTest
-         - NUnit
-         - Z3 Theorem Prover
-         - CVC4
-         - Coco/R
-         - .NET Compiler Platform (Roslyn)
-         - WordPress
-         - NS-2
-      </tr>
-   </td>
+   <tr>
+      <td>Visual Paradigm</td>
+      <td>Python</td>
+   </tr>
+   <tr>
+      <td>IBM Rational Rose</td>
+      <td>ASP.NET</td>
+   </tr>
+   <tr>
+      <td>Balsamiq</td>
+      <td>IntelliTest</td>
+   </tr>
+   <tr>
+      <td>Qlikview</td>
+      <td>NUnit</td>
+   </tr>
+   <tr>
+      <td>Microsoft SQL Server</td>
+      <td>Z3 Theorem Prover</td>
+   </tr>
+   <tr>
+      <td>PostgreSQL</td>
+      <td>CVC4</td>
+   </tr>
+   <tr>
+      <td>Weka</td>
+      <td>Coco/R</td>
+   </tr>
+   <tr>
+      <td>ELKI</td>
+      <td>.NET Compiler Platform (Roslyn)</td>
+   </tr>
+   <tr>
+      <td>ProM tools</td>
+      <td>WordPress</td>
+   </tr>
+   <tr>
+      <td>C#</td>
+      <td>NS-2</td>
+   </tr>
 </table>
 
 # Professional Experience
