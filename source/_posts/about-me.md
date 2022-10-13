@@ -33,8 +33,8 @@ title: About Me
 - NS-2
 
 <table>
-   <tr>
-      <td>
+   <td>
+      <tr>
          - Visual Paradigm
          - IBM Rational Rose
          - Balsamiq
@@ -45,9 +45,9 @@ title: About Me
          - ELKI
          - ProM tools
          - C#
-    </td>
-       <tr>
-      <td>
+      </tr>
+   <td>
+      <tr>
          - Python
          - ASP.NET
          - IntelliTest
@@ -58,8 +58,8 @@ title: About Me
          - .NET Compiler Platform (Roslyn)
          - WordPress
          - NS-2
-    </td>
- </tr>
+      </tr>
+   </td>
 </table>
 
 # Professional Experience
