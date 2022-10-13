@@ -51,7 +51,7 @@ title: About Me
 </p>
 
 # Technical Skills
-<table style="width:100%">
+<table style="width:90%">
    <tr>
       <td style="width:33%">Visual Paradigm</td>
       <td style="width:34%">ELKI</td>
