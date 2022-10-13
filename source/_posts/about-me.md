@@ -20,7 +20,33 @@ title: About Me
 
 
 # Technical Skills
+- Visual Paradigm
+- IBM Rational Rose
+- Balsamiq
+- Qlikview
+- Microsoft SQL Server
+- PostgreSQL
+- Weka
+- ELKI
+- ProM tools
+- C#
+- Python
+- ASP.NET
+- IntelliTest
+- NUnit
+- Z3 Theorem Prover
+- CVC4
+- Coco/R
+- .NET Compiler Platform (Roslyn)
+- WordPress
+- NS-2
 
+# Professional Experience
+- Internship
+Analysis of customer relationship management system
+This internship included the preparation of organization chart, task description, context diagram, description of external entities, description of data flow lines, operation diagram, BPMN diagram, use cases diagram, sequence diagram, collaboration diagram, class diagram, and creating wireframe for customer relationship management system. In this regard, IBM Rational Rose and Balsamiq software were used.
+*<span style="color:grey">Tavan Tadbir Koosha, Tehran, Iran</span>*
+*<span style="color:grey">Summer 2016</span>*
 
 # Academic Projects
 - Analysis of hospital admission system:
@@ -71,19 +97,16 @@ title: About Me
 - Byzantine fault tolerance:
 *<span style="color:grey">A research was conducted in the field of Byzantine fault tolerance methods.</span>*
 
-
 # Certifications and Workshops
-C# Programming-Beginner Certification, [LAITEC](https://www.laitec.ir/) (belongs to Sharif University of Technology)
-ASP.NET, and ASP.NET MVC - .Net Framework, [LAITE](https://www.laitec.ir/)
-
+- C# Programming-Beginner Certification, [LAITEC](https://www.laitec.ir/) (belongs to Sharif University of Technology)
+- ASP.NET, and ASP.NET MVC - .Net Framework, [LAITE](https://www.laitec.ir/)
 
 # Honors and Awards
-**Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Iran, **<span style="color:grey">2017</span>**
-**Ranked 1st** among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Iran, **<span style="color:grey">2021</span>**
-
+- **Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Iran, **<span style="color:grey">2017</span>**
+- **Ranked 1st** among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Iran, **<span style="color:grey">2021</span>**
 
 # References
-Dr. Saeed Parsa ([Webpage](http://parsa.iust.ac.ir/))
-<span style="color:grey">Associate Professor, School of Computer Engineering, Iran University of Science and Technology, Tehran, Iran</span>
-Dr. Mohamamd Abdollahi Azgomi ([Webpage](http://webpages.iust.ac.ir/azgomi/))
-<span style="color:grey">Assistant Professor, School of Computer Engineering, Iran University of Science and Technology, Tehran, Iran</span>
+- Dr. Saeed Parsa ([Webpage](http://parsa.iust.ac.ir/))
+*<span style="color:grey">Associate Professor, School of Computer Engineering, Iran University of Science and Technology, Tehran, Iran</span>*
+- Dr. Mohamamd Abdollahi Azgomi ([Webpage](http://webpages.iust.ac.ir/azgomi/))
+*<span style="color:grey">Assistant Professor, School of Computer Engineering, Iran University of Science and Technology, Tehran, Iran</span>*
