@@ -18,13 +18,9 @@ title: About Me
 
 # Research Interests
 Software Testing
-Refactoring
-Code Generation
 Compiler Design
 Software Engineering and Object Oriented Design
 Design of Programing Languages
-Modeling and Simulation of Computer Systms
-Evaluation of performance and reliability
 Database and Data Warehouse
 Information Retrieval and Text Mining
 Web Mining
@@ -32,14 +28,9 @@ Data Mining
 Big Data
 Artificial intelligence
 Machine learning
-Image Processing
-Pattern Recognition
-Natural language processing (NLP)
 Distributed Systems
-Grid Computing
 Cloud and Fog Computing
 Internet of Things
-Large-Scale Computing
 High Performance Computing
 Computer Networks
 Network Security
