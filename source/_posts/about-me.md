@@ -20,6 +20,9 @@ title: About Me
 
 
 # Technical Skills
+th, td {
+  border-style: dotted;
+}
 <table>
    <tr>
       <td>Visual Paradigm</td>
