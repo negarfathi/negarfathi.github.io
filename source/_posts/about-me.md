@@ -20,11 +20,11 @@ title: About Me
 
 
 # Technical Skills
-<table style="width:99%; border-style: dotted;">
-   <tr>
-      <td style="width:33%">Visual Paradigm</td>
-      <td style="width:33%">Python</td>
-      <td style="width:33%">Python</td>
+<table style="width:99%; border-style: noun;">
+   <tr style="width:33%; border-style: noun;">
+      <td style="width:33%; border-style: noun;">Visual Paradigm</td>
+      <td style="width:33%; border-style: noun;">Python</td>
+      <td style="width:33%; border-style: noun;">Python</td>
    </tr>
    <tr>
       <td style="width:33%">IBM Rational Rose</td>
