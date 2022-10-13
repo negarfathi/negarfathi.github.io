@@ -20,55 +20,46 @@ title: About Me
 
 
 # Technical Skills
-<html>
-<head>
-<style>
-th, td {
-  border-style: dotted;
-}
-</style>
-</head>
-<body>
-<table>
+<table style="width:100%">
    <tr>
-      <td>Visual Paradigm</td>
-      <td>Python</td>
+      <td style="width:50%">Visual Paradigm</td>
+      <td style="width:50%">Python</td>
    </tr>
    <tr>
-      <td>IBM Rational Rose</td>
-      <td>ASP.NET</td>
+      <td style="width:50%">IBM Rational Rose</td>
+      <td style="width:50%">ASP.NET</td>
    </tr>
    <tr>
-      <td>Balsamiq</td>
-      <td>IntelliTest</td>
+      <td style="width:50%">Balsamiq</td>
+      <td style="width:50%">IntelliTest</td>
    </tr>
    <tr>
-      <td>Qlikview</td>
-      <td>NUnit</td>
+      <td style="width:50%">Qlikview</td>
+      <td style="width:50%">NUnit</td>
    </tr>
    <tr>
-      <td>Microsoft SQL Server</td>
-      <td>Z3 Theorem Prover</td>
+      <td style="width:50%">Microsoft SQL Server</td>
+      <td style="width:50%">Z3 Theorem Prover</td>
    </tr>
    <tr>
-      <td>PostgreSQL</td>
-      <td>CVC4</td>
+      <td style="width:50%">PostgreSQL</td>
+      <td style="width:50%">CVC4</td>
    </tr>
    <tr>
-      <td>Weka</td>
-      <td>Coco/R</td>
+      <td style="width:50%">Weka</td>
+      <td style="width:50%">Coco/R</td>
    </tr>
    <tr>
-      <td>ELKI</td>
-      <td>.NET Compiler Platform (Roslyn)</td>
+      <td style="width:50%">ELKI</td>
+      <td style="width:50%">.NET Compiler Platform (Roslyn)</td>
    </tr>
    <tr>
-      <td>ProM tools</td>
-      <td>WordPress</td>
+      <td style="width:50%">ProM tools</td>
+      <td style="width:50%">WordPress</td>
    </tr>
    <tr>
-      <td>C#</td>
-      <td>NS-2</td>
+      <td style="width:50%">C#</td>
+      <td style="width:50%">NS-2</td>
    </tr>
 </table>
 
