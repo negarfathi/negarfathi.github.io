@@ -70,8 +70,10 @@ avatar:
   rounded: true
 
 social:
-  GitHub: https://github.com/negarfathi || fab fa-github
+  gmail
+  outlook
   LinkedIn: https://www.linkedin.com/in/negarfathi/ || fab fa-linkedin
+  GitHub: https://github.com/negarfathi || fab fa-github
   RSS: /atom.xml || fa fa-rss
 
 social_icons:
