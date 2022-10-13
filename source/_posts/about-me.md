@@ -17,59 +17,80 @@ title: About Me
 *<span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>*
 
 # Research Interests
-
-
-# Technical Skills
-<table style="width:99%; border-style: noun;">
-   <tr style="width:33%; border-style: noun;">
-      <td style="width:33%; border-style: noun;">Visual Paradigm</td>
-      <td style="width:33%; border-style: noun;">Python</td>
-      <td style="width:33%; border-style: noun;">Python</td>
+<table style="width:100%">
+   <tr>
+      <td style="width:33%">Visual Paradigm</td>
+      <td style="width:34%">ELKI</td>
+      <td style="width:33%">Z3 Theorem Prover</td>
    </tr>
    <tr>
       <td style="width:33%">IBM Rational Rose</td>
-      <td style="width:33%">ASP.NET</td>
-      <td style="width:33%">Python</td>
+      <td style="width:34%">ProM tools</td>
+      <td style="width:33%">CVC4</td>
    </tr>
    <tr>
       <td style="width:33%">Balsamiq</td>
-      <td style="width:33%">IntelliTest</td>
-      <td style="width:33%">Python</td>
+      <td style="width:34%">C#</td>
+      <td style="width:33%">Coco/R</td>
    </tr>
    <tr>
       <td style="width:33%">Qlikview</td>
-      <td style="width:33%">NUnit</td>
-      <td style="width:33%">Python</td>
+      <td style="width:34%">Python</td>
+      <td style="width:33%">.NET Compiler Platform (Roslyn)</td>
    </tr>
    <tr>
       <td style="width:33%">Microsoft SQL Server</td>
-      <td style="width:33%">Z3 Theorem Prover</td>
-      <td style="width:33%">Python</td>
+      <td style="width:34%">ASP.NET</td>
+      <td style="width:33%">WordPress</td>
    </tr>
    <tr>
       <td style="width:33%">PostgreSQL</td>
-      <td style="width:33%">CVC4</td>
-      <td style="width:33%">Python</td>
+      <td style="width:34%">IntelliTest</td>
+      <td style="width:33%">NS-2</td>
    </tr>
    <tr>
       <td style="width:33%">Weka</td>
+      <td style="width:34%">NUnit</td>
+      <td style="width:33%"></td>
+   </tr>
+</table>
+
+# Technical Skills
+<table style="width:100%">
+   <tr>
+      <td style="width:33%">Visual Paradigm</td>
+      <td style="width:34%">ELKI</td>
+      <td style="width:33%">Z3 Theorem Prover</td>
+   </tr>
+   <tr>
+      <td style="width:33%">IBM Rational Rose</td>
+      <td style="width:34%">ProM tools</td>
+      <td style="width:33%">CVC4</td>
+   </tr>
+   <tr>
+      <td style="width:33%">Balsamiq</td>
+      <td style="width:34%">C#</td>
       <td style="width:33%">Coco/R</td>
-      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:33%">ELKI</td>
+      <td style="width:33%">Qlikview</td>
+      <td style="width:34%">Python</td>
       <td style="width:33%">.NET Compiler Platform (Roslyn)</td>
-      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:33%">ProM tools</td>
+      <td style="width:33%">Microsoft SQL Server</td>
+      <td style="width:34%">ASP.NET</td>
       <td style="width:33%">WordPress</td>
-      <td style="width:33%">Python</td>
    </tr>
    <tr>
-      <td style="width:33%">C#</td>
+      <td style="width:33%">PostgreSQL</td>
+      <td style="width:34%">IntelliTest</td>
       <td style="width:33%">NS-2</td>
-      <td style="width:33%">Python</td>
+   </tr>
+   <tr>
+      <td style="width:33%">Weka</td>
+      <td style="width:34%">NUnit</td>
+      <td style="width:33%"></td>
    </tr>
 </table>
 
