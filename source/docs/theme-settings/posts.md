@@ -39,7 +39,7 @@ By default NexT shows the description text of post meta. You can disable it by s
 
 ```yml NexT config file
 post_meta:
-  item_text: true
+  item_text: false
 ```
 <!-- endtab -->
 
