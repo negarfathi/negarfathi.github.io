@@ -17,20 +17,16 @@ title: About Me
 *<span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>*
 
 # Research Interests
-Software Testing
-Compilers
-Software Engineering and Object Oriented Design
-Programing Languages
-Databases
-Information Retrieval
+Database and Data Warehouse
+Information Retrieval and Text Mining
+Web Mining
 Data Mining
 Big Data
-Artificial intelligence and Machine learning
-Distributed Systems
-Cloud Computing
-Internet of Things
-High Performance Computing
-Computer Networks
+Artificial intelligence
+Machine learning
+Image Processing
+Pattern Recognition
+Natural language processing (NLP)
 
 # Technical Skills
 Visual Paradigm
