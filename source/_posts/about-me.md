@@ -18,22 +18,17 @@ title: About Me
 
 # Research Interests
 Software Testing
-Compiler Design
+Compilers
 Software Engineering and Object Oriented Design
-Design of Programing Languages
-Database and Data Warehouse
-Information Retrieval and Text Mining
-Web Mining
+Programing Languages
+Databases
+Information Retrieval
 Data Mining
 Big Data
 Artificial intelligence
 Machine learning
-Distributed Systems
-Cloud and Fog Computing
+Cloud Computing
 Internet of Things
-High Performance Computing
-Computer Networks
-Network Security
 
 # Technical Skills
 - Visual Paradigm
@@ -41,21 +36,21 @@ Network Security
 - Balsamiq
 - Qlikview
 - Microsoft SQL Server
-PostgreSQL
-Weka
-ELKI
-ProM tools
-C#
-Python
-ASP.NET
-IntelliTest
-NUnit
-Z3 Theorem Prover
-CVC4
-Coco/R
-.NET Compiler Platform (Roslyn)
-WordPress
-NS-2
+- PostgreSQL
+- Weka
+- ELKI
+- ProM tools
+- C#
+- Python
+- ASP.NET
+- IntelliTest
+- NUnit
+- Z3 Theorem Prover
+- CVC4
+- Coco/R
+- .NET Compiler Platform (Roslyn)
+- WordPress
+- NS-2
 
 # Professional Experience
 - **Internship**
