@@ -36,11 +36,11 @@ Computer Networks
 Network Security
 
 # Technical Skills
-Visual Paradigm
-IBM Rational Rose
-Balsamiq
-Qlikview
-Microsoft SQL Server
+- Visual Paradigm
+- IBM Rational Rose
+- Balsamiq
+- Qlikview
+- Microsoft SQL Server
 PostgreSQL
 Weka
 ELKI
