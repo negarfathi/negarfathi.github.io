@@ -29,7 +29,7 @@ Artificial intelligence
 Machine learning
 
 # Publications
-1. Akram Kalaee, Saeed Parsa, *Negar Fathi*, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite”, Oct. 2022, *Information and Software Technology* **(Accepted, [Link](https://www.researchgate.net/publication/364697854_COSMOS_A_Comprehensive_Framework_for_Automatically_Generating_Domain-Oriented_Test_Suite))**
+Akram Kalaee, Saeed Parsa, **Negar Fathi**, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite”, Oct. 2022, **Information and Software Technology** *(Accepted, [Link](https://www.researchgate.net/publication/364697854_COSMOS_A_Comprehensive_Framework_for_Automatically_Generating_Domain-Oriented_Test_Suite))*
 
 # Technical Skills
 Visual Paradigm
