@@ -73,7 +73,8 @@ social:
   Gmail: negarfathi01@gmail.com || fab fa-google
   LinkedIn: https://www.linkedin.com/in/negarfathi/ || fab fa-linkedin
   GitHub: https://github.com/negarfathi || fab fa-github
-  RSS: /atom.xml || fa fa-rss
+  Researchgate: https://www.researchgate.net/profile/Negar-Fathi-3 || fab fa-researchgate
+RSS: /atom.xml || fa fa-rss
 
 social_icons:
   enable: true
