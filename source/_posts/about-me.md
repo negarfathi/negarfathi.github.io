@@ -27,7 +27,7 @@ Modeling and Simulation of Computer Systms
 Evaluation of performance and reliability
 
 # Publications
-Akram Kalaee, Saeed Parsa, **Negar Fathi**, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite”, Oct. 2022, **Information and Software Technology** *(Accepted, [Link](https://www.researchgate.net/publication/364697854_COSMOS_A_Comprehensive_Framework_for_Automatically_Generating_Domain-Oriented_Test_Suite))*
+Akram Kalaee, Saeed Parsa, **Negar Fathi**, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite”, Oct. 2022, **Information and Software Technology** *([Link](https://authors.elsevier.com/c/1g2Ov3O8rCcj9I))*
 
 # Technical Skills
 Visual Paradigm
