@@ -70,7 +70,7 @@ avatar:
   rounded: true
 
 social:
-  Outlook: negarfathi@outlook.com || fa-brands fa-microsoft
+  Outlook: negarfathi@outlook.com || fa-solid fa-envelope
   LinkedIn: https://www.linkedin.com/in/negarfathi/ || fa-brands fa-linkedin
   GitHub: https://github.com/negarfathi || fa-brands fa-github
   Google Scholar: https://scholar.google.com/citations?user=-_NavRiFZCAC&hl=en || fa-solid fa-graduation-cap
