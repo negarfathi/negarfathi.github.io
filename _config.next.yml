@@ -70,11 +70,11 @@ avatar:
   rounded: true
 
 social:
-  Outlook: negarfathi@outlook.com || fa-solid fa-envelope
-  LinkedIn: https://www.linkedin.com/in/negarfathi/ || fab fa-linkedin
-  GitHub: https://github.com/negarfathi || fab fa-github
+  Outlook: negarfathi@outlook.com || fa-brands fa-microsoft
+  LinkedIn: https://www.linkedin.com/in/negarfathi/ || fa-brands fa-linkedin
+  GitHub: https://github.com/negarfathi || fa-brands fa-github
   Google Scholar: https://scholar.google.com/citations?user=-_NavRiFZCAC&hl=en || fa-solid fa-graduation-cap
-  ResearchGate: https://www.researchgate.net/profile/Negar-Fathi-3 || fab fa-researchgate
+  ResearchGate: https://www.researchgate.net/profile/Negar-Fathi-3 || fa-brands fa-researchgate
 
 social_icons:
   enable: true
