@@ -109,7 +109,8 @@ This internship included the preparation of organization chart, task description
 
 # Certifications and Workshops
 - C# Programming-Beginner Certification, [LAITEC](https://www.laitec.ir/) (belongs to Sharif University of Technology)
-- ASP.NET, and ASP.NET MVC - .Net Framework, [LAITE](https://www.laitec.ir/)
+- ASP.NET, LAITEC
+- ASP.NET MVC - .Net Framework, LAITEC
 
 # Honors and Awards
 - **Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Iran, **<span style="color:grey">2017</span>**
