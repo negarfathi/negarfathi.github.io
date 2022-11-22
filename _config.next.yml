@@ -92,12 +92,12 @@ toc:
 # ============================================================= #
 
 footer:
-  since: 2022
-  icon:
-    name: fa fa-heart
-    animated: true
-    color: "#808080"
-  copyright: NexT
+  #since: 2022
+  #icon:
+    #name: fa fa-heart
+    #animated: true
+    #color: "#808080"
+  #copyright: NexT
 
 
 # ============================================================= #
