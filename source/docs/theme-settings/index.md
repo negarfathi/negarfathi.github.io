@@ -83,7 +83,7 @@ favicon:
   small: /images/favicon-16x16-next.png
   medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.png
+  safari_pinned_tab: /images/logo.svg
   android_manifest: /images/manifest.json
 ```
 
