@@ -179,7 +179,7 @@ mediumzoom: true
 # ============================================================= #
 
 comments:
-  lazyload: false
+  lazyload: true
 
 disqus:
   enable: false
