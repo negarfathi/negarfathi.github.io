@@ -104,9 +104,9 @@ footer:
 # ======================= Post Settings ======================= #
 # ============================================================= #
 
-post_meta:
-  updated_at:
-    enable: false
+#post_meta:
+  #updated_at:
+    #enable: false
 
 symbols_count_time:
   separated_meta: true
