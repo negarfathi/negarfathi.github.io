@@ -92,10 +92,10 @@ toc:
 # ============================================================= #
 
 footer:
-  since: 2022
+  #since: 2022
   icon:
     name: fa fa-heart
-    animated: true
+    #animated: true
     color: "#808080"
   #copyright: NexT
 
@@ -211,8 +211,8 @@ local_search:
 # ============================================================= #
 
 gitter:
-  #enable: false
-  #room: hexo-next/community
+  enable: false
+  room: hexo-next/community
 
 
 # ============================================================= #
