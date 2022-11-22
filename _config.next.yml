@@ -42,11 +42,11 @@ creative_commons:
 menu:
   home: / || fa fa-bell
 
-  Docs:
-    default: /docs/ || fa fa-book
+  #Docs:
+    #default: /docs/ || fa fa-book
 
   #Plugins: /plugins/ || fa fa-flask
-  archives: /archives/ || fa fa-archive
+  #archives: /archives/ || fa fa-archive
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
@@ -65,9 +65,9 @@ sidebar:
   padding: 18
   offset: 12
 
-avatar:
-  url: #/images/logo.svg
-  rounded: true
+#avatar:
+  #url: /images/logo.svg
+  #rounded: true
 
 social:
   Outlook: negarfathi@outlook.com || fa-solid fa-envelope
