@@ -105,6 +105,7 @@ footer:
 # ============================================================= #
 
 post_meta:
+  created_at: false
   updated_at:
     enable: false
 
