@@ -9,7 +9,7 @@ language: en
 timezone: UTC
 
 # URL
-url: https://theme-next.js.org
+url: #https://theme-next.js.org
 permalink: :title/
 permalink_defaults:
 
