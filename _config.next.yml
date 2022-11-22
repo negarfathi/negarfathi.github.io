@@ -81,23 +81,23 @@ social_icons:
   icons_only: true
   transition: true
 
-#toc:
-  #enable: false
-  #number: true
-  #wrap: true
+toc:
+  enable: false
+  number: true
+  wrap: true
 
 
 # ============================================================= #
 # ====================== Footer Settings ====================== #
 # ============================================================= #
 
-#footer:
-  #since: 2022
-  #icon:
-    #name: fa fa-heart
-    #animated: true
-    #color: "#808080"
-  #copyright: NexT
+footer:
+  since: 2022
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#808080"
+  copyright: NexT
 
 
 # ============================================================= #
