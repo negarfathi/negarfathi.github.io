@@ -29,10 +29,10 @@ darkmode: false
 # ================= Site Information Settings ================= #
 # ============================================================= #
 
-creative_commons:
-  license: by-nc-sa
-  size: big
-  sidebar: true
+#creative_commons:
+  #license: by-nc-sa
+  #size: big
+  #sidebar: true
 
 
 # ============================================================= #
