@@ -46,8 +46,8 @@ menu:
     #default: /docs/ || fa fa-book
 
   #Plugins: /plugins/ || fa fa-flask
-  archives: /archives/ || fa fa-archive
-  sitemap: /sitemap.xml || fa fa-sitemap
+  #archives: /archives/ || fa fa-archive
+  #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
 menu_settings:
