@@ -65,9 +65,9 @@ sidebar:
   padding: 18
   offset: 12
 
-#avatar:
-  #url: /images/logo.svg
-  #rounded: true
+avatar:
+  url: /images/avatar.gif
+  rounded: true
 
 social:
   Outlook: negarfathi@outlook.com || fa-solid fa-envelope
