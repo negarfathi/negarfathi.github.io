@@ -183,9 +183,9 @@ comments:
   lazyload: true
 
 disqus:
-  #enable: false
-  #shortname: next-theme
-  #count: true
+  enable: false
+  shortname: next-theme
+  count: true
 
 
 # ============================================================= #
