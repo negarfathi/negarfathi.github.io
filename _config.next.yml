@@ -183,9 +183,9 @@ comments:
   lazyload: true
 
 disqus:
-  enable: false
-  shortname: next-theme
-  count: true
+  #enable: false
+  #shortname: next-theme
+  #count: true
 
 
 # ============================================================= #
@@ -211,8 +211,8 @@ local_search:
 # ============================================================= #
 
 gitter:
-  enable: false
-  room: hexo-next/community
+  #enable: false
+  #room: hexo-next/community
 
 
 # ============================================================= #
