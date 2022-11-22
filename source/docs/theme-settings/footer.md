@@ -74,7 +74,7 @@ By default NexT shows Hexo and Theme & scheme information like `Powered by Hexo 
 
 ```yml NexT config file
 footer:
-  powered: false
+  powered: true
 ```
 
 #### Site Beian Information
