@@ -18,13 +18,9 @@ title: About Me
 
 # Research Interests
 Software Testing
-Refactoring
-Code Generation
 Compiler Design
 Software Engineering and Object Oriented Design
 Design of Programing Languages
-Modeling and Simulation of Computer Systems
-Evaluation of performance and reliability
 
 # Publications
 A. Kalaee, S. Parsa, and **N. Fathi**, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite,” *Information and Software Technology*, vol. 154, p. 107091, Feb. 2023, doi: 10.1016/j.infsof.2022.107091. *([Link](https://doi.org/10.1016/j.infsof.2022.107091))*
@@ -52,13 +48,6 @@ Coco/R
 .NET Compiler Platform (Roslyn)
 WordPress
 NS-2
-
-# Professional Experience
-- **Internship**
-Analysis of customer relationship management system
-This internship included the preparation of organization chart, task description, context diagram, description of external entities, description of data flow lines, operation diagram, BPMN diagram, use cases diagram, sequence diagram, collaboration diagram, class diagram, and creating wireframe for customer relationship management system. In this regard, IBM Rational Rose and Balsamiq software were used.
-*<span style="color:grey">Tavan Tadbir Koosha, Tehran, Iran</span>*
-*<span style="color:grey">Summer 2016</span>*
 
 # Academic Projects
 - **Analysis of hospital admission system:**
