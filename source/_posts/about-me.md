@@ -32,9 +32,6 @@ Balsamiq
 Qlikview
 Microsoft SQL Server
 PostgreSQL
-Weka
-ELKI
-ProM tools
 C
 C#
 Java
@@ -47,56 +44,39 @@ CVC4
 Coco/R
 .NET Compiler Platform (Roslyn)
 WordPress
-NS-2
 
 # Academic Projects
-- **Analysis of hospital admission system:**
-*<span style="color:grey">The project included the preparation of organizational chart, task description, context diagram, description of external entities, description of data flow lines, operational diagram, target-scenario model, strategic map, key performance indicators (KPI), management dashboard, BPMN diagram of AS-IS model, BPMN diagram of To-Be model, use case diagram, scenario diagram, sequence diagram, collaboration diagram, and class diagram for the hospital admission system. In this regard, Visual Paradigm and Qlikview software were used.</span>*
-- **Implementation of the registering and receiving employee information system:**
-*<span style="color:grey">This C project was done in the Dev-C++ development environment. In this project, it was possible to add a new employee, display the list of employees, search for an employee by name, and delete an employee by employee code. Also, when registering a new employee, it was possible to add the employee's photo and salary slip. All information related to employees was stored in their own files.</span>*
-- **Implementation of a calculator:**
-*<span style="color:grey">This Java project was done in the NetBeans development environment. In this project, it was possible to calculate arithmetic expressions including addition, subtraction, multiplication, division, power, remainder, and parentheses. The priority of operators was considered when performing calculations.</span>*
-- **Implementation a news website:**
-*<span style="color:grey">In this project, a news website was created using WordPress.</span>*
-- **Implementation a webservice:**
-*<span style="color:grey">A SOAP web service was built using the WCF method in the .NET environment. This web service was installed on Windows IIS servers and was used synchronously and asynchronously in the .Net environment. The task of this web service was to convert numbers into letters.</span>*
-- **Implementation of the warehouse system database:**
+- **Analysis of hospital admission system**
+*<span style="color:grey">This project included the preparation of (1) organizational chart, (2) task description, (3) context diagram, (4) description of external entities, (5) description of data flow lines, (6) operational diagram, (7) target-scenario model, (8) strategic map, (9) key performance indicators (KPI), (10) management dashboard, (11) BPMN diagram of AS-IS model, (12) BPMN diagram of To-Be model, (13) use case diagram, (14) scenario diagram, (15) sequence diagram, (16) collaboration diagram, and (17) class diagram for the hospital admission system. In this regard, Visual Paradigm and Qlikview tools were used.</span>*
+- **Implementation of the registering and receiving employee information system**
+*<span style="color:grey">This C programming project was done in the Dev-C++ development environment. In this project, it was possible to add a new employee, display the list of employees, search for an employee by his name, and delete an employee using his employee ID. Also, when registering a new employee, it was possible to add his photo and salary slip. All information about employees was stored in their own files.</span>*
+- **Implementation of a calculator**
+*<span style="color:grey">This Java programming project was done in the NetBeans development environment. In this project, it was possible to calculate arithmetic expressions including addition, subtraction, multiplication, division, power, remainder, and parentheses. The priority of operators was considered when performing calculations.</span>*
+- **Implementation a news website**
+*<span style="color:grey">In this project, a news website was created using the WordPress tool.</span>*
+- **Implementation a webservice**
+*<span style="color:grey">In this project, a SOAP web service was built using the WCF method in the .NET environment. This web service was installed on Windows IIS servers and was used synchronously and asynchronously in the .Net environment. The task of this web service was to convert numbers into letters.</span>*
+- **Implementation of the warehouse system database**
 *<span style="color:grey">For the Database course</span>*
-*<span style="color:grey">In this project, after drawing the ER diagram of the warehousing system, a database was created in the Microsoft SQL Server database management system, and the relevant tables were added. These tables were filled with data, and several queries were created on them.</span>*
-- **Implementation of the warehouse system database:**
-*<span style="color:grey">For the Database Laboratory</span>*
-*<span style="color:grey">In this project,  in the Microsoft SQL Server database management system, several advanced queries were created according to the concepts of procedure, transaction, trigger, and cursor on the already implemented warehousing system database.</span>*
-- **Implementation of the warehouse system database:**
+*<span style="color:grey">In this project, after drawing the ER diagram for a warehouse management system, its database was created in the Microsoft SQL Server database management system, and the relevant tables were added. These tables are filled with sample data, and several queries are performed on them.</span>*
+- **Implementation of the warehouse system database**
+*<span style="color:grey">For the Database Lab. Course</span>*
+*<span style="color:grey">In this project, in the Microsoft SQL Server database management system, several advanced queries were performed with respect to the new concepts of procedure, transaction, trigger, and cursor on the previously implemented warehouse management system database.</span>*
+- **Implementation of the warehouse system database**
 *<span style="color:grey">For the Advanced Database course</span>*
-*<span style="color:grey">In this project, a warehousing system database was created in the PostgreSQL database management system. The database was connected to Microsoft Visual Studio and a UI was designed for it.</span>*
-- **Text language detection using n-grams:**
-*<span style="color:grey">In this project, the language of an input text was recognized using n-grams. In this way, a series of pre-defined words were available in several languages, including Persian and English. The words of the input text were extracted and hashed in order to find out the number of repetitions of each word. 50 words with the highest number of repetitions were compared with pre-defined words in each language, and the number of words that were the same in both were obtained. The language corresponding to the maximum of these numbers was considered as the language of the input text.</span>*
-- **Extraction of the regression equation:**
-*<span style="color:grey">In this project, Weka data mining software was used to extract the regression equation of an ARFF file, which was among the ready data sets of the software itself.</span>*
-- **Spatio-temporal anaylsis of taxis trajectory in Beijing:**
-*<span style="color:grey">In this project, a dataset containing spatio-temporal information of 10357 taxis in Beijing during one week was given. First, a C# program was written in the Microsoft Visual Studio development environment for random sampling of the data set. Then, by running the DBSCAN clustering algorithm on 6277 random samples in ELKI data mining software, it was determined in which geographic coordinates the density of taxis is higher.</span>*
-- **Process mining:**
-*<span style="color:grey">In this project, an event log, which was about the phone repair process in a company, was given, and its BPMN diagram was extracted with the ProM process mining software.</span>*
-- **Implementation of a multi-layer perceptron classifier with a single hidden layer:**
-*<span style="color:grey">In this project, a multi-layer perceptron classifier with a single hidden layer for performing both binary and multi-class classification was implemented in Python programing language without using any classes or functions for building the multi-layer perceptron model.</span>*
-- **Unit testing:**
-*<span style="color:grey">In this project, after drawing a class diagram in the Visual Paradigm environment, generating C# code from the class diagram, creating a project in the Visual Studio environment, adding classes to the project, and finally implementing the classes, the program methods were unit tested with the help of NUnit tool.</span>*
-- **Implementation of an automatic code cleanup tool:**
-*<span style="color:grey">In this project, with the help of the .Net compiler Platform (Roslyn), it was checked whether a C# program is clean according to some principles of clean code.</span>*
-- **Implementation of a calculator compiler:**
+*<span style="color:grey">In this project, the database for a warehouse management system was created in the PostgreSQL database management system. The database was connected to Microsoft Visual Studio, and a user interface was designed for it.</span>*
+
+
+- **Unit testing**
+*<span style="color:grey">In this project, after drawing a class diagram in the Visual Paradigm environment, generating C# code from the class diagram, creating a project in the Visual Studio environment, adding classes to the project, and finally implementing the classes, the program methods were tested with the help of NUnit tool.</span>*
+- **Implementation of an automatic code cleanup tool**
+*<span style="color:grey">In this project, with the help of the .Net Compiler Platform (Roslyn), it was checked whether a C# program is clean based on some clean code principles.</span>*
+- **Implementation of a calculator compiler**
 *<span style="color:grey">For the Principles of Compiler Design course</span>*
-*<span style="color:grey">In this project, first, a context-free grammar was written to calculate arithmetic expressions, including addition, subtraction, multiplication, division, and parentheses, which was able to consider the priority of operators when performing calculations. Then, with the help of the Lex lexical analyzer generator and the Yacc syntactic analyzer generator, its lexical analyzer and syntactic analyzer were created respectively. Finally, a C header file was created that contained the macro definitions for these two.</span>*
-- **Implementation of a calculator compiler:**
+*<span style="color:grey">In this project, a context-free grammar was first written to calculate arithmetic expressions, including addition, subtraction, multiplication, division, and parentheses, which was able to consider the priority of operators when performing calculations. Then, with the help of the Lex lexical analyzer generator and the Yacc syntactic analyzer generator, its lexical analyzer and syntactic analyzer were created respectively. Finally, a C header file was created that contained the macro definitions for these two.</span>*
+- **Implementation of a calculator compiler**
 *<span style="color:grey">For the Advanced Compiler course</span>*
-*<span style="color:grey">In this project, first, a L-attributed EBNF grammar was written to calculate arithmetic expressions including addition, subtraction, multiplication, division and parentheses, which was able to consider the priority of operators when performing calculations. Then, semantic actions were added to it to obtain a feature grammar. Its lexical and syntactic analyzers were created with the help of the Coco/R compiler generator. Finally, a C# main program was created that contained the macro definitions for these two.</span>*
-- **Resource discovery in grid computing:**
-*<span style="color:grey">A research was conducted in the field of resource discovery algorithms in grid computing.</span>*
-- **Load balancing in cloud computing:**
-*<span style="color:grey">A research was conducted in the field of load balancing algorithms in cloud computing.</span>*
-- **Routing protocols in wireless sensor networks:**
-*<span style="color:grey">One of the routing protocols in wireless sensor networks, the flooding protocol, was implemented in the NS-2 simulator.</span>*
-- **Byzantine fault tolerance:**
-*<span style="color:grey">A research was conducted in the field of Byzantine fault tolerance methods.</span>*
+*<span style="color:grey">In this project, a L-attributed EBNF grammar was first written to calculate arithmetic expressions including addition, subtraction, multiplication, division and parentheses, which was able to consider the priority of operators when performing calculations. Then, semantic actions were added to obtain the feature grammar. Its lexical and syntactic analyzers were created with the help of the Coco/R compiler generator. Finally, a main program in C# was created that contained the macro definitions for these two.</span>*
 
 # Certifications and Workshops
 - C# Programming-Beginner Certification, [LAITEC](https://www.laitec.ir/) (belongs to Sharif University of Technology)
