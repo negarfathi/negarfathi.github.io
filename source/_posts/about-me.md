@@ -49,12 +49,11 @@ A. Kalaee, S. Parsa, and **N. Fathi**, “COSMOS: A Comprehensive Framework for 
 <span style="color:grey">**Overall Band Score:** 6.5 (**Listening:** 7.5, **Reading:** 6, **Writing:** 6.5, **Speaking:** 6.5)</span>
 
 # Honors and Awards
-**Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Mazandaran, Iran, <span style="color:grey">July 2017</span>
-**Ranked 1st** among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Tehran, Iran, <span style="color:grey">June 2021</span>
+**Ranked 1st** among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Mazandaran, Iran, <span style="color:grey">**July 2017**</span>
+**Ranked 1st** among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Tehran, Iran, <span style="color:grey">**June 2021**</span>
 
 # Languages
 **Persian**
 <span style="color:grey">Native or bilingual proficiency</span>
 **English**
 <span style="color:grey">Professional working proficiency</span>
-<span style="color:grey">**Overall Band Score:** 6.5 (**Listening:** 7.5, **Reading:** 6, **Writing:** 6.5, **Speaking:** 6.5)</span>
