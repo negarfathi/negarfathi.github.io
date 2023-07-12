@@ -32,7 +32,7 @@ A. Kalaee, S. Parsa, and **N. Fathi**, “COSMOS: A Comprehensive Framework for 
   <span style="color:grey">[LAITEC](https://www.laitec.ir/)(belongs to Sharif University of Technology)</span>
   <span style="color:grey">**Issued:** January 2019</span>
   <span style="color:grey">**Credential ID:** 2019-01-8277554</span>
-- **ASP.NET**([Link](https://drive.google.com/file/d/1SPp0-iBA8JimccUP-JQPvjMB9m2FNtBm/view?usp=drive_link)
+- **ASP.NET**([Link](https://drive.google.com/file/d/1SPp0-iBA8JimccUP-JQPvjMB9m2FNtBm/view?usp=drive_link))
   <span style="color:grey">[LAITEC](https://www.laitec.ir/)</span>
   <span style="color:grey">**Issued:** October 2019</span>
   <span style="color:grey">**Credential ID:** 2019-10-7280931</span>
