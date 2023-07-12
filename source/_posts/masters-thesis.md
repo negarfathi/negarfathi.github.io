@@ -1,5 +1,5 @@
 ---
-title: About My Master's Thesis
+title: **<span style="color:DarkBlue">About My Master's Thesis</span>**
 ---
 
 Domain-oriented test suite generation is an essential technique for making software programs relatively more explainable since it can reason about the governing rules changing program behavior through domain boundaries. It is also crucial for detecting latent faults which do not manifest themselves unless the program executes with specific test data from the feasible domain. However, real-world programs typically contain complex data types such as string, struct and array, and black-box called methods that challenge domain coverage. In my master's thesis entitled *“Development of a Constraint Solver to Determine the Domain for Complex Data Types”*, I transform the domain-oriented test suite generation task into a constraint satisfaction problem. The state-of-the-art constraint solvers generate only one satisfying assignment and support a limited number of data types. Especially they fail when they encounter black-box called methods which considerably affects the performance of the solvers.
