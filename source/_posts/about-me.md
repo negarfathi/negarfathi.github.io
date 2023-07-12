@@ -1,20 +1,19 @@
 ---
 title: About Me
 ---
+I am a Ph.D. student at the University of Nebraska-Lincoln specializing in Software Analysis, Software Testing, and Compiler Design and proficient in a wide range of technical tools dedicated to exploring and improving the software development process.
 
-**I am a Ph.D. student at the University of Nebraska-Lincoln specializing in Software Analysis, Software Testing, and Compiler Design and proficient in a wide range of technical tools dedicated to exploring and improving the software development process.**
-
-# Education
-**Pd.D. Student in Computer Science**
-*<span style="color:grey">Universityof Nebraska-Lincoln, Lincoln, Nebraska, United States</span>*
+# <span style="color:blue">Education</span>
+**<span style="color:blue">Ph.D. Student in Computer Science</span>**
+*<span style="color:grey">University of Nebraska-Lincoln, Lincoln, Nebraska, United States</span>*
 *<span style="color:grey">August 2023 - Present</span>*
-**Master of Science in Computer Engineering (Software)**
+**<span style="color:blue">Master of Science in Computer Engineering (Software)</span>**
 *<span style="color:grey">Iran University of Science and Technology, Tehran, Tehran, Iran</span>*
 *<span style="color:grey">September 2018 - June 2021</span>*
 ***GPA:** 18.69/20.00 (**Ranked 1st**)*
 ***Thesis Title:** Development of a Constraint Solver to Determine the Domain for Complex Data Types*
 *<span style="color:grey">Supervisor: Dr. Saeed Parsa</span>*
-**Bachelor of Science in Computer Engineering (Software)**
+**<span style="color:blue">Bachelor of Science in Computer Engineering (Software)</span>**
 *<span style="color:grey">Babol Noshirvani University of Technology, Babol, Mazandaran, Iran</span>*
 *<span style="color:grey">September 2013 - July 2017</span>*
 ***GPA:** 17.29/20.00 (**Ranked 1st**)*
@@ -30,19 +29,19 @@ Compiler Design
 A. Kalaee, S. Parsa, and **N. Fathi**, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite,” *Information and Software Technology*, vol. 154, p. 107091, Feb. 2023, doi: 10.1016/j.infsof.2022.107091. *([Link](https://doi.org/10.1016/j.infsof.2022.107091))*
 
 # Certifications
-- [**C# Programming-Beginner**](https://drive.google.com/file/d/1bhMcBivnwo4cjLQxsTfVzTQ2HYYHsWUc/view?usp=drive_link)
-  *<span style="color:grey">[LAITEC](https://www.laitec.ir/) (belongs to Sharif University of Technology)</span>*
+- **C# Programming-Beginner***([Link](https://drive.google.com/file/d/1bhMcBivnwo4cjLQxsTfVzTQ2HYYHsWUc/view?usp=drive_link))*
+  *<span style="color:grey">[LAITEC](https://www.laitec.ir/)   (belongs to Sharif University of Technology)</span>*
   *<span style="color:grey">**Issued:** January 2019</span>*
   *<span style="color:grey">**Credential ID:** 2019-01-8277554</span>*
-- [**ASP.NET**](https://drive.google.com/file/d/1SPp0-iBA8JimccUP-JQPvjMB9m2FNtBm/view?usp=drive_link)
+- **ASP.NET***([Link](https://drive.google.com/file/d/1SPp0-iBA8JimccUP-JQPvjMB9m2FNtBm/view?usp=drive_link)
   *<span style="color:grey">[LAITEC](https://www.laitec.ir/)</span>*
   *<span style="color:grey">**Issued:** October 2019</span>*
   *<span style="color:grey">**Credential ID:** 2019-10-7280931</span>*
-- [**ASP.NET MVC - .Net Framework**](https://drive.google.com/file/d/1ZExx6WWG54WnA7lFnu6POysXmGwteSjB/view?usp=drive_link)
+- **ASP.NET MVC - .Net Framework***([Link](https://drive.google.com/file/d/1ZExx6WWG54WnA7lFnu6POysXmGwteSjB/view?usp=drive_link))*
   *<span style="color:grey">[LAITEC](https://www.laitec.ir/)</span>*
   *<span style="color:grey">**Issued:** November 2020</span>*
   *<span style="color:grey">**Credential ID:** 2020-10-8434476</span>*
-- [**IELTS Academic**](https://drive.google.com/file/d/1XaWo-Es2vJ8KiQoRuULy5ymDY_-jCOjP/view?usp=drive_link)
+- **IELTS Academic***([Link](https://drive.google.com/file/d/1XaWo-Es2vJ8KiQoRuULy5ymDY_-jCOjP/view?usp=drive_link))*
   *<span style="color:grey">[IELTS Official](http://www.ielts.org/)</span>*
   *<span style="color:grey">**Issued:** August 2022</span>*
   *<span style="color:grey">**Credential ID:** 22IR005248FATN010A</span>*
