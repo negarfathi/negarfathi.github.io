@@ -1,5 +1,5 @@
 ---
-title: **<span style="color:DarkBlue">About Me</span>**
+title: <span style="color:DarkBlue">About Me</span>
 ---
 I am a Ph.D. student at the University of Nebraska-Lincoln specializing in Software Analysis, Software Testing, and Compiler Design and proficient in a wide range of technical tools dedicated to exploring and improving the software development process.
 
