@@ -4,21 +4,24 @@ title: About Me
 I am a Ph.D. student at the University of Nebraska-Lincoln specializing in Software Analysis, Software Testing, and Compiler Design and proficient in a wide range of technical tools dedicated to exploring and improving the software development process.
 
 # <span style="color:blue">Education</span>
+
 **<span style="color:blue">Ph.D. Student in Computer Science</span>**
-*<span style="color:grey">University of Nebraska-Lincoln, Lincoln, Nebraska, United States</span>*
-*<span style="color:grey">August 2023 - Present</span>*
+University of Nebraska-Lincoln, Lincoln, Nebraska, United States
+August 2023 - Present
+
 **<span style="color:blue">Master of Science in Computer Engineering (Software)</span>**
-*<span style="color:grey">Iran University of Science and Technology, Tehran, Tehran, Iran</span>*
-*<span style="color:grey">September 2018 - June 2021</span>*
-***GPA:** 18.69/20.00 (**Ranked 1st**)*
-***Thesis Title:** Development of a Constraint Solver to Determine the Domain for Complex Data Types*
-*<span style="color:grey">Supervisor: Dr. Saeed Parsa</span>*
+Iran University of Science and Technology, Tehran, Tehran, Iran
+September 2018 - June 2021
+**GPA:** 18.69/20.00 (**Ranked 1st**)
+**Thesis Title:** Development of a Constraint Solver to Determine the Domain for Complex Data Types
+                (<span style="color:grey">Supervisor: Dr. Saeed Parsa</span>)
+
 **<span style="color:blue">Bachelor of Science in Computer Engineering (Software)</span>**
-*<span style="color:grey">Babol Noshirvani University of Technology, Babol, Mazandaran, Iran</span>*
-*<span style="color:grey">September 2013 - July 2017</span>*
-***GPA:** 17.29/20.00 (**Ranked 1st**)*
-***Final Project Topic:** Study and Investigation of Routing Protocols in Wireless Sensor Networks*
-*<span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>*
+Babol Noshirvani University of Technology, Babol, Mazandaran, Iran
+September 2013 - July 2017
+**GPA:** 17.29/20.00 (**Ranked 1st**)
+**Final Project Topic:** Study and Investigation of Routing Protocols in Wireless Sensor Networks
+                       <span style="color:grey">Supervisor: Dr. Mojtaba Mansouri</span>
 
 # Research Interests
 Software Analysis
