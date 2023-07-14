@@ -2,7 +2,7 @@
 title: About Me
 ---
 
-I am a Ph.D. student at the University of Nebraska-Lincoln specializing in Software Analysis, Software Testing, and Compiler Design and proficient in a wide range of technical tools dedicated to exploring and improving the software development process.
+I am a Ph.D. student at the University of Nebraska-Lincoln with a focus on software analysis, software testing, and compiler design. I am interested in developing and utilizing technical tools to explore and improve the software development process.
 
 # Education
 **Ph.D. Student in Computer Science**
