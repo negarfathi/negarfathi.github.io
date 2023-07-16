@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About Mee
 ---
 
 I am a Ph.D. student at the University of Nebraska-Lincoln with a focus on software analysis, software testing, and compiler design. I am interested in developing and utilizing technical tools to explore and improve the software development process.
