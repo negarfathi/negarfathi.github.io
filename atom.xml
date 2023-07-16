@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Negar Fathi</title>
+  
+  
+  <link href="https://theme-next.js.org/atom.xml" rel="self"/>
+  
+  <link href="https://theme-next.js.org/"/>
+  <updated>2023-07-16T13:46:34.244Z</updated>
+  <id>https://theme-next.js.org/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="https://theme-next.js.org/about-me/"/>
+    <id>https://theme-next.js.org/about-me/</id>
+    <published>2023-07-16T13:46:34.244Z</published>
+    <updated>2023-07-16T13:46:34.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>I am a Ph.D. student at the University of Nebraska-Lincoln with a focus on software analysis, software testing, and compiler design. I am interested in developing and utilizing technical tools to explore and improve the software development process.</p><h1 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h1><p><strong>Ph.D. Student in Computer Science</strong><br><span style="color:grey">University of Nebraska-Lincoln, Lincoln, Nebraska, United States</span><br><span style="color:grey">August 2023 - Present</span><br><strong>Master of Science in Computer Engineering (Software)</strong><br><span style="color:grey">Iran University of Science and Technology, Tehran, Tehran, Iran</span><br><span style="color:grey">September 2018 - June 2021</span><br><span style="color:grey"><strong>GPA:</strong> 18.69&#x2F;20.00 (<strong>Ranked 1st</strong>)</span><br><span style="color:grey"><strong>Thesis Title:</strong> Development of a Constraint Solver to Determine the Domain for Complex Data Types</span><br><span style="color:grey"><strong>Supervisor:</strong> Dr. Saeed Parsa</span><br><strong>Bachelor of Science in Computer Engineering (Software)</strong><br><span style="color:grey">Babol Noshirvani University of Technology, Babol, Mazandaran, Iran</span><br><span style="color:grey">September 2013 - July 2017</span><br><span style="color:grey"><strong>GPA:</strong> 17.29&#x2F;20.00 (<strong>Ranked 1st</strong>)</span><br><span style="color:grey"><strong>Final Project Topic:</strong> Study and Investigation of Routing Protocols in Wireless Sensor Networks</span><br><span style="color:grey"><strong>Supervisor:</strong> Dr. Mojtaba Mansouri</span></p><h1 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a>Research Interests</h1><p>Software Analysis<br>Software Testing<br>Compiler Design</p><h1 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h1><p>A. Kalaee, S. Parsa, and <strong>N. Fathi</strong>, “COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite,” <em>Information and Software Technology</em>, vol. 154, p. 107091, Feb. 2023, doi: 10.1016&#x2F;j.infsof.2022.107091. (<span class="exturl" data-url="aHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5pbmZzb2YuMjAyMi4xMDcwOTE=">Link<i class="fa fa-external-link-alt"></i></span>)</p><h1 id="Certifications"><a href="#Certifications" class="headerlink" title="Certifications"></a>Certifications</h1><p><strong>C# Programming-Beginner</strong> (<span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xYmhNY0Jpdm53bzRjakxReHNUZlZ6VFEySFlZSHNXVWMvdmlldz91c3A9ZHJpdmVfbGluaw==">Show Credential<i class="fa fa-external-link-alt"></i></span>)<br><span style="color:grey"><span class="exturl" data-url="aHR0cHM6Ly93d3cubGFpdGVjLmlyLw==">LAITEC<i class="fa fa-external-link-alt"></i></span> (belongs to Sharif University of Technology)</span><br><span style="color:grey"><strong>Issued:</strong> January 2019</span><br><span style="color:grey"><strong>Credential ID:</strong> 2019-01-8277554</span><br><strong>ASP.NET</strong> (<span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xU1BwMC1pQkE4SmltY2NVUC1KUVB2ak1COW0yRk50Qm0vdmlldz91c3A9ZHJpdmVfbGluaw==">Show Credential<i class="fa fa-external-link-alt"></i></span>)<br><span style="color:grey"><span class="exturl" data-url="aHR0cHM6Ly93d3cubGFpdGVjLmlyLw==">LAITEC<i class="fa fa-external-link-alt"></i></span></span><br><span style="color:grey"><strong>Issued:</strong> October 2019</span><br><span style="color:grey"><strong>Credential ID:</strong> 2019-10-7280931</span><br><strong>ASP.NET MVC - .Net Framework</strong> (<span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xWkV4eDZXV0c1NFduQTdsRm51NlBPeXNYbUd3dGVTakIvdmlldz91c3A9ZHJpdmVfbGluaw==">Show Credential<i class="fa fa-external-link-alt"></i></span>)<br><span style="color:grey"><span class="exturl" data-url="aHR0cHM6Ly93d3cubGFpdGVjLmlyLw==">LAITEC<i class="fa fa-external-link-alt"></i></span></span><br><span style="color:grey"><strong>Issued:</strong> November 2020</span><br><span style="color:grey"><strong>Credential ID:</strong> 2020-10-8434476</span><br><strong>IELTS Academic</strong> (<span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xWGFXby1FczJ2SjhLaVFvUnVVTHk1eW1EWV8takNPalAvdmlldz91c3A9ZHJpdmVfbGluaw==">Show Credential<i class="fa fa-external-link-alt"></i></span>)<br><span style="color:grey"><span class="exturl" data-url="aHR0cDovL3d3dy5pZWx0cy5vcmcv">IELTS Official<i class="fa fa-external-link-alt"></i></span></span><br><span style="color:grey"><strong>Issued:</strong> August 2022</span><br><span style="color:grey"><strong>Credential ID:</strong> 22IR005248FATN010A</span><br><span style="color:grey"><strong>Overall Band Score:</strong> 6.5 (<strong>Listening:</strong> 7.5, <strong>Reading:</strong> 6, <strong>Writing:</strong> 6.5, <strong>Speaking:</strong> 6.5)</span></p><h1 id="Honors-and-Awards"><a href="#Honors-and-Awards" class="headerlink" title="Honors and Awards"></a>Honors and Awards</h1><p><strong>Ranked 1st</strong> among undergraduate students of Computer Engineering, Babol Noshirvani University of Technology, Babol, Mazandaran, Iran, <span style="color:grey"><strong>July 2017</strong></span><br><strong>Ranked 1st</strong> among graduate students of Computer Engineering, Iran University of Science and Technology, Tehran, Tehran, Iran, <span style="color:grey"><strong>June 2021</strong></span></p><h1 id="Languages"><a href="#Languages" class="headerlink" title="Languages"></a>Languages</h1><p><strong>Persian</strong><br><span style="color:grey">Native or bilingual proficiency</span><br><strong>English</strong><br><span style="color:grey">Professional working proficiency</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I am a Ph.D. student at the University of Nebraska-Lincoln with a focus on software analysis, software testing, and compiler design. I am</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Master&#39;s Thesis</title>
+    <link href="https://theme-next.js.org/masters-thesis/"/>
+    <id>https://theme-next.js.org/masters-thesis/</id>
+    <published>2023-07-16T13:46:34.244Z</published>
+    <updated>2023-07-16T13:46:34.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>Domain-oriented test suite generation is an essential technique for making software programs relatively more explainable since it can reason about the governing rules changing program behavior through domain boundaries. It is also crucial for detecting latent faults which do not manifest themselves unless the program executes with specific test data from the feasible domain. However, real-world programs typically contain complex data types such as string, struct and array, and black-box called methods that challenge domain coverage. In my master&#39;s thesis entitled <em>“Development of a Constraint Solver to Determine the Domain for Complex Data Types”</em>, I transform the domain-oriented test suite generation task into a constraint satisfaction problem. The state-of-the-art constraint solvers generate only one satisfying assignment and support a limited number of data types. Especially they fail when they encounter black-box called methods which considerably affects the performance of the solvers.<br>To address the challenges, I propose a technique for constraint solving, called DomainSolver, which starts with simplifying the constraint using some testability transformations and splits the result into some sub-constraints each of which contains some expressions with a similar data type. As such splitting guarantees that there is no common variable between the sub-constraints, we can independently solve each sub-constraint by an appropriate strategy. DomainSolver returns the resultant solutions as a set of feasible sub-domains solving the target constraint, provided that it is satisfiable.<br>I have implemented the proposed approach which uses an underlying compiler as a service, e.g., Roslyn, and assessed the benefits and costs of Domain-Solver with five well-known constraint solvers, e.g, CVC4, S3, Yices2, Z3, and Z3str3. The experimental results, based on two industrial benchmarks with 56 constraints confirm that the approach significantly improves the number of supported data types involved in a constraint, and solves all of the instances on which the other solvers fail while performing in an affordable execution time.</p><p>You can access the source code of DomainSolver <strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25lZ2FyZmF0aGkvRG9tYWluU29sdmVy">here<i class="fa fa-external-link-alt"></i></span></strong>.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Domain-oriented test suite generation is an essential technique for making software programs relatively more explainable since it can rea</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
