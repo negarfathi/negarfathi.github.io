@@ -355,9 +355,11 @@ var _hmt = _hmt || [];
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
             <h2 class="card-title text-xl font-bold text-primary leading-tight flex-1 mb-1 md:mb-0">
-              Anonymized Manuscript on Hybrid Analysis of Program Termination and Non-Termination through Program Refinement
+              Loop-Based Slicing and Input-Driven Concretization: An Empirical Study of Termination and Non-Termination Analysis
             </h2>
             <div class="flex items-center gap-2 mt-1 md:mt-0">
+              
+                <div class="badge badge-secondary badge-lg z-50">Under Review</div>
               
               
             </div>
@@ -366,12 +368,14 @@ var _hmt = _hmt || [];
           <!-- Authors and Metadata -->
           <div class="mb-4">
             
+              <p class="text-base font-medium text-base-content/90 mb-3">Negar Fathi, Hiroshi Unno, Tachio Terauchi, and Rahul Purandare</p>
+            
             
             <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/70">
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-building w-4 h-4 mr-1"></i>
-                  under review
+                  under review at the ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)
                 </span>
               
               
@@ -390,9 +394,29 @@ var _hmt = _hmt || [];
             
             <!-- Tags -->
             
+              <div class="flex flex-wrap gap-2 mt-3">
+                
+                  <span class="badge badge-outline badge-sm">Termination Analysis</span>
+                
+                  <span class="badge badge-outline badge-sm">Non-Termination Analysis</span>
+                
+                  <span class="badge badge-outline badge-sm">Program Slicing</span>
+                
+                  <span class="badge badge-outline badge-sm">Concretization</span>
+                
+                  <span class="badge badge-outline badge-sm">Program Preprocessing</span>
+                
+                  <span class="badge badge-outline badge-sm">Empirical Evaluation</span>
+                
+              </div>
+            
           </div>
   
           <!-- Abstract -->
+          
+            <div class="prose max-w-none mb-4">
+              <p class="text-base-content/80 text-sm leading-relaxed">Termination and non-termination are fundamental correctness properties, yet establishing them for real-world programs remains challenging. Structural entanglement across loops and environment-induced nondeterminism expand the semantic search space beyond what analyzers can effectively manage, suggesting that analysis difficulty arises not only from limitations of reasoning engines but also from the structure and variability of the programs themselves. We conduct an empirical study of how lightweight, tool-agnostic source-level preprocessing reshapes termination and non-termination verification. We implement a C front end that applies loop-based static slicing to isolate target loops and input-driven concretization to specialize nondeterministic inputs. We analyze how structural isolation, semantic specialization, and their combination influence verification effectiveness, architectural sensitivity, runtime efficiency, and semantic scope, including hybrid settings where concretization augments static reasoning with execution-informed specialization. We evaluate four configurations across six analyzers—Athena, Proton, UAutomizer, AProVE, CPAchecker, and 2LS—on a benchmark of 117 programs derived from real-world non-termination bugs and their corresponding fixes. Our results show that preprocessing constitutes a semantic refinement dimension rather than a simple optimization, and that its effectiveness is strongly architecture-dependent. Semantic specialization substantially simplifies universal termination reasoning in analyzers constrained by path explosion, yielding marked increases in correct termination classifications. However, by restricting feasible behaviors, it can weaken existential non-termination detection, sometimes increasing misclassifications and slightly reducing correct outcomes. In contrast, structural slicing provides more stable but moderate improvements, producing modest gains while often preserving—or even reducing—incorrect classifications by isolating proof obligations without restricting behavior. The interaction between transformations is non-monotonic, and runtime effects stem primarily from configuration multiplicity rather than uniform solver acceleration, exposing a tractability–generality trade-off. We therefore advocate an adaptive integration strategy in which analyzers begin with the original program and selectively introduce structural isolation or semantic specialization when verification difficulty arises</p>
+            </div>
           
   
           <!-- Action Buttons -->
