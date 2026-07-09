@@ -316,29 +316,47 @@ var _hmt = _hmt || [];
   <div class="lg:ml-80 px-4 py-8">
     <style>
   .project-title {
-    color: #3730A3 !important; /* same as publication title */
+    color: #3730A3 !important;
   }
 
   .project-status-completed {
-    background-color: #0D9488 !important; /* teal */
+    background-color: #4B5563 !important;
     color: white !important;
     border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
+    font-weight: 600 !important;
   }
 
   .project-status-progress {
-    background-color: #D97706 !important; /* orange */
-    color: white !important;
-    border: none !important;
-  }
-
-  .project-status-neutral {
     background-color: #6B7280 !important;
     color: white !important;
     border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10) !important;
+    font-weight: 600 !important;
+  }
+
+  .project-status-neutral {
+    background-color: #9CA3AF !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+    font-weight: 600 !important;
+  }
+
+  .project-status-completed:hover {
+    background-color: #374151 !important;
+  }
+
+  .project-status-progress:hover {
+    background-color: #4B5563 !important;
+  }
+
+  .project-status-neutral:hover {
+    background-color: #6B7280 !important;
   }
 
   .btn-github {
-    background-color: #2563EB !important; /* same as DOI button */
+    background-color: #2563EB !important;
     color: white !important;
     border: none !important;
   }
@@ -353,8 +371,8 @@ var _hmt = _hmt || [];
   }
 
   .timeline-item:target {
-    outline: 3px solid #0D9488;
-    box-shadow: 0 0 0 6px rgba(13, 148, 136, 0.15);
+    outline: 3px solid #374151 !important;
+    box-shadow: 0 0 0 6px rgba(55, 65, 81, 0.18) !important;
   }
 </style>
 
