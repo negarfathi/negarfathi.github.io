@@ -320,87 +320,54 @@ var _hmt = _hmt || [];
     color: #3730A3 !important; /* same as publication title */
   }
 
-  .featured-pub-type {
-    background-color: #EC4899 !important; /* same as publication type badge */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-btn-doi {
-    background-color: #2563EB !important; /* same as DOI button */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-btn-doi:hover {
-    background-color: #1D4ED8 !important;
-    color: white !important;
-  }
-
-  .featured-btn-code {
-    background-color: #0D9488 !important; /* same as publication Code button */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-btn-code:hover {
-    background-color: #0F766E !important;
-    color: white !important;
-  }
-
-  .featured-btn-video {
-    background-color: #D97706 !important; /* same as publication Video button */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-btn-video:hover {
-    background-color: #B45309 !important;
-    color: white !important;
-  }
-
   /* Featured Projects */
   .featured-project-title {
     color: #3730A3 !important; /* same as project title */
   }
 
-  .featured-project-status-completed {
-    background-color: #0D9488 !important; /* same as completed status */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-project-status-progress {
-    background-color: #D97706 !important; /* same as in-progress status */
-    color: white !important;
-    border: none !important;
-  }
-
-  .featured-project-status-neutral {
-    background-color: #6B7280 !important;
-    color: white !important;
-    border: none !important;
-  }
-
+  /*
+    Soft gray homepage style:
+    Conference / Journal / Preprint
+    DOI / Code / Video
+    completed / in progress / neutral
+    project Code / Website
+  */
+  .featured-pub-type,
+  .featured-btn-doi,
+  .featured-btn-code,
+  .featured-btn-video,
+  .featured-project-status-completed,
+  .featured-project-status-progress,
+  .featured-project-status-neutral,
   .featured-project-code {
-    background-color: #2563EB !important; /* same as project GitHub/Code button */
-    color: white !important;
-    border: none !important;
+    background-color: hsl(var(--b2)) !important;
+    color: hsl(var(--bc)) !important;
+    border: 1px solid hsl(var(--b3)) !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08) !important;
+    font-weight: 600 !important;
   }
 
+  .featured-pub-type:hover,
+  .featured-btn-doi:hover,
+  .featured-btn-code:hover,
+  .featured-btn-video:hover,
+  .featured-project-status-completed:hover,
+  .featured-project-status-progress:hover,
+  .featured-project-status-neutral:hover,
   .featured-project-code:hover {
-    background-color: #1D4ED8 !important;
-    color: white !important;
+    background-color: hsl(var(--b3)) !important;
+    color: hsl(var(--bc)) !important;
   }
 
+  /* View All buttons: dark gray */
   .featured-view-btn {
-    background-color: #3730A3 !important; /* same as publication/project title */
+    background-color: #374151 !important;
     color: white !important;
     border: none !important;
   }
 
   .featured-view-btn:hover {
-    background-color: #312E81 !important;
+    background-color: #1F2937 !important;
     color: white !important;
   }
 </style>
