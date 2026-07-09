@@ -327,19 +327,36 @@ var _hmt = _hmt || [];
   }
 
   /*
-    Soft professional gray style:
+    Dark gray badges:
     Conference / Journal / Preprint
-    DOI / Code / Video
     completed / in progress / neutral
-    project Code / Website
   */
   .featured-pub-type,
+  .featured-project-status-completed,
+  .featured-project-status-progress,
+  .featured-project-status-neutral {
+    background-color: #4B5563 !important; /* darker gray */
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
+    font-weight: 600 !important;
+  }
+
+  .featured-pub-type:hover,
+  .featured-project-status-completed:hover,
+  .featured-project-status-progress:hover,
+  .featured-project-status-neutral:hover {
+    background-color: #374151 !important;
+    color: white !important;
+  }
+
+  /*
+    Soft gray action buttons:
+    DOI / Code / Video / GitHub / Website
+  */
   .featured-btn-doi,
   .featured-btn-code,
   .featured-btn-video,
-  .featured-project-status-completed,
-  .featured-project-status-progress,
-  .featured-project-status-neutral,
   .featured-project-code {
     background-color: hsl(var(--b2)) !important;
     color: hsl(var(--bc)) !important;
@@ -355,13 +372,9 @@ var _hmt = _hmt || [];
     color: #3730A3 !important;
   }
 
-  .featured-pub-type:hover,
   .featured-btn-doi:hover,
   .featured-btn-code:hover,
   .featured-btn-video:hover,
-  .featured-project-status-completed:hover,
-  .featured-project-status-progress:hover,
-  .featured-project-status-neutral:hover,
   .featured-project-code:hover {
     background-color: white !important;
     color: #3730A3 !important;
@@ -369,7 +382,6 @@ var _hmt = _hmt || [];
     box-shadow: 0 4px 12px rgba(55, 48, 163, 0.16) !important;
   }
 
-  .featured-pub-type:hover i,
   .featured-btn-doi:hover i,
   .featured-btn-code:hover i,
   .featured-btn-video:hover i,
@@ -690,9 +702,9 @@ var _hmt = _hmt || [];
                  class="btn btn-sm featured-project-code"
                  target="_blank"
                  rel="noopener noreferrer"
-                 title="Code">
+                 title="GitHub">
                 <i class="fa-brands fa-github mr-1"></i>
-                Code
+                GitHub
               </a>
             
           </div>
@@ -745,9 +757,9 @@ var _hmt = _hmt || [];
                  class="btn btn-sm featured-project-code"
                  target="_blank"
                  rel="noopener noreferrer"
-                 title="Code">
+                 title="GitHub">
                 <i class="fa-brands fa-github mr-1"></i>
-                Code
+                GitHub
               </a>
             
           </div>
@@ -800,9 +812,9 @@ var _hmt = _hmt || [];
                  class="btn btn-sm featured-project-code"
                  target="_blank"
                  rel="noopener noreferrer"
-                 title="Code">
+                 title="GitHub">
                 <i class="fa-brands fa-github mr-1"></i>
-                Code
+                GitHub
               </a>
             
           </div>
