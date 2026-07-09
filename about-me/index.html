@@ -329,6 +329,16 @@ var _hmt = _hmt || [];
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
   }
 
+  .about-card .card-title {
+    font-size: 1.25rem !important; /* same as project/publication card title */
+    line-height: 1.4 !important;
+  }
+
+  .about-text {
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+  }
+
   .about-cv-btn {
     background-color: #2563EB !important;
     color: white !important;
@@ -345,6 +355,7 @@ var _hmt = _hmt || [];
     color: hsl(var(--bc)) !important;
     border: 1px solid hsl(var(--b3)) !important;
     font-weight: 500;
+    font-size: 0.875rem !important;
   }
 
   .about-pill:hover {
@@ -359,27 +370,19 @@ var _hmt = _hmt || [];
   }
 
   .about-label {
-    font-weight: 700;
-    color: hsl(var(--bc));
+    font-weight: 700 !important;
+    color: hsl(var(--bc)) !important;
   }
 
+  .about-advisor-link,
   .about-card a {
-    color: hsl(var(--in)) !important; /* same as link-info / project collaborators */
+    color: #00AEEF !important; /* same visual color as project collaborator links */
     text-decoration: none !important;
     font-weight: 400 !important;
   }
 
+  .about-advisor-link:hover,
   .about-card a:hover {
-    text-decoration: underline !important;
-  }
-
-  .about-advisor-link {
-    color: hsl(var(--in)) !important;
-    font-weight: 400 !important; /* advisor name is not bold */
-    text-decoration: none !important;
-  }
-
-  .about-advisor-link:hover {
     text-decoration: underline !important;
   }
 
@@ -488,8 +491,8 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Ph.D. in Computer Science
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Ph.D. in Computer Science</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -498,29 +501,29 @@ var _hmt = _hmt || [];
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
+                    <p class="font-medium mt-2">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Grade:</span>
-                      <em>3.87/4.00</em>
+                      <span>3.87/4.00</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">
                         Research Focus:
                       </span>
-                      <em>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</em>
+                      <span>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Advisor:</span>
 
                       
@@ -539,8 +542,8 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  M.Sc. in Computer Science
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>M.Sc. in Computer Science</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -549,24 +552,24 @@ var _hmt = _hmt || [];
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
+                    <p class="font-medium mt-2">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Grade:</span>
-                      <em>3.94/4.00</em>
+                      <span>3.94/4.00</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">
                         Description:
                       </span>
-                      <em>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</em>
+                      <span>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</span>
                     </p>
                   
 
@@ -577,8 +580,8 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  M.Sc. in Computer Engineering (Software)
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>M.Sc. in Computer Engineering (Software)</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -587,29 +590,29 @@ var _hmt = _hmt || [];
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Iran University of Science and Technology (IUST), Tehran, Tehran, Iran</p>
+                    <p class="font-medium mt-2">Iran University of Science and Technology (IUST), Tehran, Tehran, Iran</p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Grade:</span>
-                      <em>18.69/20.00</em>
+                      <span>18.69/20.00</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">
                         Thesis:
                       </span>
-                      <em>Development of a Constraint Solver to Determine the Domain for Complex Data Types</em>
+                      <span>Development of a Constraint Solver to Determine the Domain for Complex Data Types</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Advisor:</span>
 
                       
@@ -628,8 +631,8 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  B.Sc. in Computer Engineering (Software)
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>B.Sc. in Computer Engineering (Software)</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -638,29 +641,29 @@ var _hmt = _hmt || [];
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Babol Noshirvani University of Technology (NIT), Babol, Mazandaran, Iran</p>
+                    <p class="font-medium mt-2">Babol Noshirvani University of Technology (NIT), Babol, Mazandaran, Iran</p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Grade:</span>
-                      <em>17.29/20.00</em>
+                      <span>17.29/20.00</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">
                         Final Project:
                       </span>
-                      <em>Study and Investigation of Routing Protocols in Wireless Sensor Networks</em>
+                      <span>Study and Investigation of Routing Protocols in Wireless Sensor Networks</span>
                     </p>
                   
 
                   
-                    <p class="mt-2 opacity-90">
+                    <p class="mt-2">
                       <span class="about-label">Advisor:</span>
 
                       
@@ -692,7 +695,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Program Verification &amp; Analysis Tools</h2>
+                <h2 class="card-title font-bold mb-4">Program Verification &amp; Analysis Tools</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -730,7 +733,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Software Testing &amp; Fuzzing</h2>
+                <h2 class="card-title font-bold mb-4">Software Testing &amp; Fuzzing</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -752,7 +755,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Programming Languages</h2>
+                <h2 class="card-title font-bold mb-4">Programming Languages</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -774,7 +777,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Frontend Development</h2>
+                <h2 class="card-title font-bold mb-4">Frontend Development</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -796,7 +799,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Backend Development</h2>
+                <h2 class="card-title font-bold mb-4">Backend Development</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -814,7 +817,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Databases</h2>
+                <h2 class="card-title font-bold mb-4">Databases</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -832,7 +835,7 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold mb-4">Systems &amp; Development Tools</h2>
+                <h2 class="card-title font-bold mb-4">Systems &amp; Development Tools</h2>
 
                 <div class="flex flex-wrap gap-3">
                   
@@ -863,8 +866,8 @@ var _hmt = _hmt || [];
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Teaching Assistant
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Teaching Assistant</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -873,15 +876,21 @@ var _hmt = _hmt || [];
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
+                    <p class="font-medium mt-2">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
                   
 
                   
-                    <p class="mt-2 opacity-90 whitespace-pre-line">Assisted in teaching undergraduate and graduate computer science courses, supported students with course material, graded assignments and exams, and held office hours.
-Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Analysis of Algorithms)
-</p>
+
+                  
+                    
+
+                    
+                      <p class="mt-2">Assisted in teaching undergraduate and graduate computer science courses, supported students with course material, graded assignments and exams, and held office hours.</p>
+                    
+                      <p class="mt-2">Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Analysis of Algorithms)</p>
+                    
                   
                 </div>
               </div>
@@ -889,8 +898,8 @@ Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Anal
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Graduate Research Assistant
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Graduate Research Assistant</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -899,15 +908,32 @@ Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Anal
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
+                    <p class="font-medium mt-2">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
                   
 
                   
-                    <p class="mt-2 opacity-90 whitespace-pre-line">Advisor: Dr. Rahul Purandare
-Applied formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.
-</p>
+                    <p class="mt-2">
+                      <span class="about-label">Advisor:</span>
+
+                      
+                        <a href="https://rahulpurandare.unl.edu/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="about-advisor-link">
+                          Dr. Rahul Purandare
+                        </a>
+                      
+                    </p>
+                  
+
+                  
+                    
+
+                    
+                      <p class="mt-2">Applied formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</p>
+                    
                   
                 </div>
               </div>
@@ -928,8 +954,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Ad hoc Reviewer
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Ad hoc Reviewer</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -938,13 +964,13 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Machine Intelligence Research</p>
+                    <p class="font-medium mt-2">Machine Intelligence Research</p>
                   
 
                   
-                    <p class="mt-2 opacity-90">Served as an invited ad hoc reviewer for Machine Intelligence Research, reviewing one submitted manuscript and providing peer-review feedback.</p>
+                    <p class="mt-2">Served as an invited ad hoc reviewer for Machine Intelligence Research, reviewing one submitted manuscript and providing peer-review feedback.</p>
                   
                 </div>
               </div>
@@ -965,8 +991,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Types, Logic, and Formal Methods
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Types, Logic, and Formal Methods</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -975,9 +1001,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), University of Oregon</p>
+                    <p class="font-medium mt-2">Oregon Programming Languages Summer School (OPLSS), University of Oregon</p>
                   
                 </div>
               </div>
@@ -985,8 +1011,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Types, Semantics, and Applications
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Types, Semantics, and Applications</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -995,9 +1021,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), Boston University</p>
+                    <p class="font-medium mt-2">Oregon Programming Languages Summer School (OPLSS), Boston University</p>
                   
                 </div>
               </div>
@@ -1005,8 +1031,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  ASP.NET MVC
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>ASP.NET MVC</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1015,9 +1041,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                    <p class="font-medium mt-2">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
                   
                 </div>
               </div>
@@ -1025,8 +1051,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  ASP.NET
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>ASP.NET</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1035,9 +1061,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                    <p class="font-medium mt-2">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
                   
                 </div>
               </div>
@@ -1045,8 +1071,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  C# Programming
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>C# Programming</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1055,9 +1081,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                    <p class="font-medium mt-2">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
                   
                 </div>
               </div>
@@ -1078,8 +1104,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Othmer Fellowship
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Othmer Fellowship</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1088,9 +1114,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">University of Nebraska-Lincoln</p>
+                    <p class="font-medium mt-2">University of Nebraska-Lincoln</p>
                   
                 </div>
               </div>
@@ -1098,8 +1124,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Ranked 1st among M.Sc. students in Computer Engineering
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Ranked 1st among M.Sc. students in Computer Engineering</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1108,9 +1134,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Iran University of Science and Technology</p>
+                    <p class="font-medium mt-2">Iran University of Science and Technology</p>
                   
                 </div>
               </div>
@@ -1118,8 +1144,8 @@ Applied formal methods and program analysis techniques to verify safety and live
           
             <div class="card rounded-box about-card text-base-content transition-all duration-300">
               <div class="card-body">
-                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                  Ranked 1st among B.Sc. students in Computer Engineering
+                <h2 class="card-title font-bold flex flex-wrap gap-3 items-center">
+                  <span>Ranked 1st among B.Sc. students in Computer Engineering</span>
 
                   
                     <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
@@ -1128,9 +1154,9 @@ Applied formal methods and program analysis techniques to verify safety and live
                   
                 </h2>
 
-                <div class="text-base-content opacity-80">
+                <div class="text-base-content opacity-80 about-text">
                   
-                    <p class="font-medium">Babol Noshirvani University of Technology</p>
+                    <p class="font-medium mt-2">Babol Noshirvani University of Technology</p>
                   
                 </div>
               </div>
