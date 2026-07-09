@@ -314,7 +314,52 @@ var _hmt = _hmt || [];
   <div class="lg:ml-80 pt-20 px-4 py-8">
   -->
   <div class="lg:ml-80 px-4 py-8">
-    <div class="container mx-auto px-4 py-8">
+    <style>
+  .pub-title {
+    color: #1E3A8A !important; /* navy blue */
+  }
+
+  .pub-type-badge {
+    background-color: #EC4899 !important; /* pink */
+    color: white !important;
+    border: none !important;
+  }
+
+  .btn-doi {
+    background-color: #2563EB !important; /* blue */
+    color: white !important;
+    border: none !important;
+  }
+
+  .btn-doi:hover {
+    background-color: #1D4ED8 !important;
+    color: white !important;
+  }
+
+  .btn-code {
+    background-color: #059669 !important; /* green/teal */
+    color: white !important;
+    border: none !important;
+  }
+
+  .btn-code:hover {
+    background-color: #047857 !important;
+    color: white !important;
+  }
+
+  .btn-video {
+    background-color: #D97706 !important; /* orange */
+    color: white !important;
+    border: none !important;
+  }
+
+  .btn-video:hover {
+    background-color: #B45309 !important;
+    color: white !important;
+  }
+</style>
+
+<div class="container mx-auto px-4 py-8">
   <h1 class="text-3xl font-bold mb-8 text-base-content">Publications</h1>
 
   <!-- Filters -->
@@ -356,22 +401,35 @@ var _hmt = _hmt || [];
   <!-- Publications List -->
   <div id="publicationsList" class="space-y-6">
     
+      
+
       <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
            data-year="2026"
            data-category="formal methods">
+
         <div class="card-body p-6">
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-            <h2 class="card-title text-xl font-bold text-primary leading-tight flex-1 mb-1 md:mb-0">
+            <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
               Sound Termination and Non-termination Analysis of C Programs with Bit-Precise Bounded Semantics and Advanced Constructs
             </h2>
+
             <div class="flex items-center gap-2 mt-1 md:mt-0">
               
-                <div class="badge badge-secondary badge-lg z-50">Conference</div>
+                <div class="badge badge-lg z-50 pub-type-badge">Conference</div>
               
+
               
-                <div class='altmetric-embed z-50 relative' data-badge-type='donut' data-doi='https://doi.org/10.1145/3808205' data-badge-popover="bottom" data-hide-no-mentions="true"></div>
-                <span class="__dimensions_badge_embed__ z-50 relative" data-doi='https://doi.org/10.1145/3808205' data-style="small_circle" data-hide-zero-citations="true"></span>
+                <div class="altmetric-embed z-50 relative"
+                     data-badge-type="donut"
+                     data-doi="10.1145/3808205"
+                     data-badge-popover="bottom"
+                     data-hide-no-mentions="true"></div>
+
+                <span class="__dimensions_badge_embed__ z-50 relative"
+                      data-doi="10.1145/3808205"
+                      data-style="small_circle"
+                      data-hide-zero-citations="true"></span>
               
             </div>
           </div>
@@ -389,12 +447,14 @@ var _hmt = _hmt || [];
                   Proceedings of the ACM on Software Engineering, FSE
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-calendar-week w-4 h-4 mr-1"></i>
                   2026
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-layer-group w-4 h-4 mr-1"></i>
@@ -431,45 +491,70 @@ var _hmt = _hmt || [];
           <!-- Action Buttons -->
           <div class="card-actions justify-start">
             
-              <a href="https://doi.org/https://doi.org/10.1145/3808205" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" title="DOI">
-                <i class="fa-solid fa-link w-4 h-4 mr-1"></i>
+              <a href="https://doi.org/10.1145/3808205"
+                 class="btn btn-doi btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="DOI">
+                <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
+
             
-            
-              <a href="https://github.com/negarfathi/Athena" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer" title="Code">
-                <i class="fa-solid fa-code"></i>
+              <a href="https://github.com/negarfathi/Athena"
+                 class="btn btn-code btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="Code">
+                <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
             
+
             
-              <a href="https://youtu.be/MKwAvMAy57s?si=-VXzswPel9kur753" class="btn btn-info btn-sm" target="_blank" rel="noopener noreferrer" title="Presentation Video">
+              <a href="https://youtu.be/MKwAvMAy57s?si=-VXzswPel9kur753"
+                 class="btn btn-video btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="Presentation Video">
                 <i class="fa-solid fa-video mr-1"></i>
                 Video
               </a>
-            
             
           </div>
         </div>
       </div>
     
+      
+
       <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
            data-year="2023"
            data-category="software testing">
+
         <div class="card-body p-6">
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-            <h2 class="card-title text-xl font-bold text-primary leading-tight flex-1 mb-1 md:mb-0">
+            <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
               COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite
             </h2>
+
             <div class="flex items-center gap-2 mt-1 md:mt-0">
               
-                <div class="badge badge-secondary badge-lg z-50">Journal</div>
+                <div class="badge badge-lg z-50 pub-type-badge">Journal</div>
               
+
               
-                <div class='altmetric-embed z-50 relative' data-badge-type='donut' data-doi='https://doi.org/10.1016/j.infsof.2022.107091' data-badge-popover="bottom" data-hide-no-mentions="true"></div>
-                <span class="__dimensions_badge_embed__ z-50 relative" data-doi='https://doi.org/10.1016/j.infsof.2022.107091' data-style="small_circle" data-hide-zero-citations="true"></span>
+                <div class="altmetric-embed z-50 relative"
+                     data-badge-type="donut"
+                     data-doi="10.1016/j.infsof.2022.107091"
+                     data-badge-popover="bottom"
+                     data-hide-no-mentions="true"></div>
+
+                <span class="__dimensions_badge_embed__ z-50 relative"
+                      data-doi="10.1016/j.infsof.2022.107091"
+                      data-style="small_circle"
+                      data-hide-zero-citations="true"></span>
               
             </div>
           </div>
@@ -487,12 +572,14 @@ var _hmt = _hmt || [];
                   Information and Software Technology
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-calendar-week w-4 h-4 mr-1"></i>
                   2023
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-layer-group w-4 h-4 mr-1"></i>
@@ -527,40 +614,61 @@ var _hmt = _hmt || [];
           <!-- Action Buttons -->
           <div class="card-actions justify-start">
             
-              <a href="https://doi.org/https://doi.org/10.1016/j.infsof.2022.107091" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" title="DOI">
-                <i class="fa-solid fa-link w-4 h-4 mr-1"></i>
+              <a href="https://doi.org/10.1016/j.infsof.2022.107091"
+                 class="btn btn-doi btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="DOI">
+                <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
+
             
-            
-              <a href="https://github.com/negarfathi/COSMOS" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer" title="Code">
-                <i class="fa-solid fa-code"></i>
+              <a href="https://github.com/negarfathi/COSMOS"
+                 class="btn btn-code btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="Code">
+                <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
             
-            
+
             
           </div>
         </div>
       </div>
     
+      
+
       <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
            data-year="2026"
            data-category="computer vision">
+
         <div class="card-body p-6">
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-            <h2 class="card-title text-xl font-bold text-primary leading-tight flex-1 mb-1 md:mb-0">
+            <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
               EDFNet: Early Fusion of Edge and Depth for Thin-Obstacle Segmentation in UAV Navigation
             </h2>
+
             <div class="flex items-center gap-2 mt-1 md:mt-0">
               
-                <div class="badge badge-secondary badge-lg z-50">Preprint</div>
+                <div class="badge badge-lg z-50 pub-type-badge">Preprint</div>
               
+
               
-                <div class='altmetric-embed z-50 relative' data-badge-type='donut' data-doi='https://doi.org/10.48550/arXiv.2604.09694' data-badge-popover="bottom" data-hide-no-mentions="true"></div>
-                <span class="__dimensions_badge_embed__ z-50 relative" data-doi='https://doi.org/10.48550/arXiv.2604.09694' data-style="small_circle" data-hide-zero-citations="true"></span>
+                <div class="altmetric-embed z-50 relative"
+                     data-badge-type="donut"
+                     data-doi="10.48550/arXiv.2604.09694"
+                     data-badge-popover="bottom"
+                     data-hide-no-mentions="true"></div>
+
+                <span class="__dimensions_badge_embed__ z-50 relative"
+                      data-doi="10.48550/arXiv.2604.09694"
+                      data-style="small_circle"
+                      data-hide-zero-citations="true"></span>
               
             </div>
           </div>
@@ -578,12 +686,14 @@ var _hmt = _hmt || [];
                   arXiv preprint
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-calendar-week w-4 h-4 mr-1"></i>
                   2026
                 </span>
               
+
               
                 <span class="flex items-center">
                   <i class="fa-solid fa-layer-group w-4 h-4 mr-1"></i>
@@ -622,26 +732,33 @@ var _hmt = _hmt || [];
           <!-- Action Buttons -->
           <div class="card-actions justify-start">
             
-              <a href="https://doi.org/https://doi.org/10.48550/arXiv.2604.09694" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" title="DOI">
-                <i class="fa-solid fa-link w-4 h-4 mr-1"></i>
+              <a href="https://doi.org/10.48550/arXiv.2604.09694"
+                 class="btn btn-doi btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="DOI">
+                <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
+
             
-            
-              <a href="https://github.com/negarfathi/EDFNet" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer" title="Code">
-                <i class="fa-solid fa-code"></i>
+              <a href="https://github.com/negarfathi/EDFNet"
+                 class="btn btn-code btn-sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 title="Code">
+                <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
             
-            
+
             
           </div>
         </div>
       </div>
     
   </div>
-  
 </div>
 
 <script>
@@ -660,21 +777,11 @@ var _hmt = _hmt || [];
     publications.forEach(pub => {
       const pubYear = pub.getAttribute('data-year');
       const pubCategory = pub.getAttribute('data-category') || '';
-      const titleElement = pub.querySelector('.card-title');
-      const authorsElement = pub.querySelector('p.text-base');
-      
-      const title = titleElement ? titleElement.textContent.toLowerCase() : '';
-      const authors = authorsElement ? authorsElement.textContent.toLowerCase() : '';
-      const venue = pub.querySelector('em') ? pub.querySelector('em').textContent.toLowerCase() : '';
-      const abstract = pub.querySelector('.prose p') ? pub.querySelector('.prose p').textContent.toLowerCase() : '';
+      const pubText = pub.textContent.toLowerCase();
 
       const matchesYear = !yearVal || pubYear === yearVal;
-      const matchesCategory = !categoryVal || pubCategory.toLowerCase().includes(categoryVal);
-      const matchesSearch = !searchVal || 
-                           title.includes(searchVal) || 
-                           authors.includes(searchVal) ||
-                           venue.includes(searchVal) ||
-                           abstract.includes(searchVal);
+      const matchesCategory = !categoryVal || pubCategory.includes(categoryVal);
+      const matchesSearch = !searchVal || pubText.includes(searchVal);
 
       if (matchesYear && matchesCategory && matchesSearch) {
         pub.style.display = 'block';
@@ -684,12 +791,10 @@ var _hmt = _hmt || [];
       }
     });
     
-    // Update results count (if you want to add this)
     updateResultsCount(visibleCount, searchVal, yearVal, categoryVal);
   }
   
   function updateResultsCount(count, search, year, category) {
-    // You can add a results counter element if needed
     const filters = [search, year, category].filter(Boolean);
     console.log(`Showing ${count} publications${filters.length ? ' (filtered)' : ''}`);
   }
@@ -698,10 +803,8 @@ var _hmt = _hmt || [];
   categoryFilter.addEventListener('change', filterPublications);
   searchInput.addEventListener('input', filterPublications);
 
-  // 初始化显示全部
   filterPublications();
 </script>
-
   </div>
 
 
