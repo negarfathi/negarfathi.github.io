@@ -319,19 +319,33 @@ var _hmt = _hmt || [];
   .featured-project-title {
     color: #3730A3 !important;
     font-weight: 700 !important;
+    text-decoration: none !important;
   }
 
   .featured-pub-title:hover,
   .featured-project-title:hover {
     color: #312E81 !important;
-    text-decoration: underline;
+    text-decoration: none !important;
   }
 
+  .featured-pub-title:focus,
+  .featured-project-title:focus,
+  .featured-pub-title:active,
+  .featured-project-title:active {
+    text-decoration: none !important;
+  }
+
+  /*
+    Middle gray between:
+    completed dark gray: #4B5563
+    in-progress light gray: #9CA3AF
+    exact middle: #747C89
+  */
   .featured-pub-type,
   .featured-project-status-completed,
   .featured-project-status-progress,
   .featured-project-status-neutral {
-    background-color: #6B7280 !important;
+    background-color: #747C89 !important;
     color: white !important;
     border: none !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10) !important;
@@ -342,7 +356,7 @@ var _hmt = _hmt || [];
   .featured-project-status-completed:hover,
   .featured-project-status-progress:hover,
   .featured-project-status-neutral:hover {
-    background-color: #4B5563 !important;
+    background-color: #5F6875 !important;
     color: white !important;
   }
 
@@ -442,7 +456,7 @@ var _hmt = _hmt || [];
           <!-- Title + Type -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/publications/#Athena" class="featured-pub-title no-underline hover:underline">
+              <a href="/publications/#Athena" class="featured-pub-title no-underline">
                 Sound Termination and Non-termination Analysis of C Programs with Bit-Precise Bounded Semantics and Advanced Constructs
               </a>
             </h3>
@@ -513,7 +527,7 @@ var _hmt = _hmt || [];
           <!-- Title + Type -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/publications/#COSMOS" class="featured-pub-title no-underline hover:underline">
+              <a href="/publications/#COSMOS" class="featured-pub-title no-underline">
                 COSMOS: A Comprehensive Framework for Automatically Generating Domain-Oriented Test Suite
               </a>
             </h3>
@@ -575,7 +589,7 @@ var _hmt = _hmt || [];
           <!-- Title + Type -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/publications/#EDFNet" class="featured-pub-title no-underline hover:underline">
+              <a href="/publications/#EDFNet" class="featured-pub-title no-underline">
                 EDFNet: Early Fusion of Edge and Depth for Thin-Obstacle Segmentation in UAV Navigation
               </a>
             </h3>
@@ -653,7 +667,7 @@ var _hmt = _hmt || [];
           <!-- Title + Status -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/projects/#Athena" class="featured-project-title no-underline hover:underline">
+              <a href="/projects/#Athena" class="featured-project-title no-underline">
                 Athena
               </a>
             </h3>
@@ -708,7 +722,7 @@ var _hmt = _hmt || [];
           <!-- Title + Status -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/projects/#FocusTNT" class="featured-project-title no-underline hover:underline">
+              <a href="/projects/#FocusTNT" class="featured-project-title no-underline">
                 FocusTNT
               </a>
             </h3>
@@ -763,7 +777,7 @@ var _hmt = _hmt || [];
           <!-- Title + Status -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
             <h3 class="card-title text-lg font-semibold leading-tight flex-1">
-              <a href="/projects/#EDFNet" class="featured-project-title no-underline hover:underline">
+              <a href="/projects/#EDFNet" class="featured-project-title no-underline">
                 EDFNet
               </a>
             </h3>
