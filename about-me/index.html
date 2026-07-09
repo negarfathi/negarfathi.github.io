@@ -315,12 +315,45 @@ var _hmt = _hmt || [];
   -->
   <div class="lg:ml-80 px-4 py-8">
     <style>
+  .about-section-title {
+    color: #3730A3 !important; /* same as publication paper titles */
+  }
+
+  .about-cv-btn {
+    background-color: #2563EB !important; /* same as DOI button */
+    color: white !important;
+    border: none !important;
+  }
+
+  .about-cv-btn:hover {
+    background-color: #1D4ED8 !important;
+    color: white !important;
+  }
+
   .about-label {
     font-weight: 700;
   }
 
   .about-advisor-link {
     font-weight: 400 !important;
+  }
+
+  .about-period-badge {
+    background-color: transparent !important;
+    color: hsl(var(--bc) / 0.65) !important;
+    border: 1px solid hsl(var(--b3)) !important;
+    font-weight: 500 !important;
+  }
+
+  .about-pill {
+    background-color: hsl(var(--b2)) !important;
+    color: hsl(var(--bc)) !important;
+    border: 1px solid hsl(var(--b3)) !important;
+    font-weight: 500;
+  }
+
+  .about-pill:hover {
+    background-color: hsl(var(--b3)) !important;
   }
 
   .about-section {
@@ -373,8 +406,8 @@ var _hmt = _hmt || [];
   <!-- Download CV -->
   <div class="text-right mb-8 flex justify-end items-center space-x-2">
     
-      <a href="/assets/CV_NegarFathi.pdf" 
-         class="btn btn-primary glass-button inline-flex items-center space-x-2 px-4 py-2"
+      <a href="/assets/CV_NegarFathi.pdf"
+         class="btn about-cv-btn glass-button inline-flex items-center space-x-2 px-4 py-2"
          target="_blank"
          rel="noopener noreferrer"
          title="Download CV"
@@ -388,7 +421,7 @@ var _hmt = _hmt || [];
   <!-- Interests -->
   
     <section class="mb-8 about-section" id="interests">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Interests</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Interests</h2>
 
       <div class="grid gap-6">
         
@@ -396,13 +429,13 @@ var _hmt = _hmt || [];
             <div class="card-body">
               <div class="flex flex-wrap gap-3">
                 
-                  <span class="badge badge-primary cursor-default">Formal Methods</span>
+                  <span class="badge badge-md about-pill cursor-default">Formal Methods</span>
                 
-                  <span class="badge badge-primary cursor-default">Program Analysis</span>
+                  <span class="badge badge-md about-pill cursor-default">Program Analysis</span>
                 
-                  <span class="badge badge-primary cursor-default">Software Testing</span>
+                  <span class="badge badge-md about-pill cursor-default">Software Testing</span>
                 
-                  <span class="badge badge-primary cursor-default">AI for Software Engineering</span>
+                  <span class="badge badge-md about-pill cursor-default">AI for Software Engineering</span>
                 
               </div>
             </div>
@@ -415,7 +448,7 @@ var _hmt = _hmt || [];
   <!-- Education -->
   
     <section class="mb-8 about-section" id="education">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Education</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Education</h2>
 
       <div class="grid gap-6">
         
@@ -426,7 +459,7 @@ var _hmt = _hmt || [];
                   Ph.D. in Computer Science
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2023 - Present
                     </div>
                   
@@ -440,14 +473,14 @@ var _hmt = _hmt || [];
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Grade:</span>
-                      <span>3.87/4.00</span>
+                      <em>3.87/4.00</em>
                     </p>
                   
 
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Research Focus:</span>
-                      <span>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</span>
+                      <em>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</em>
                     </p>
                   
 
@@ -456,11 +489,11 @@ var _hmt = _hmt || [];
                       <span class="about-label">Advisor:</span>
 
                       
-                        <a href="https://rahulpurandare.unl.edu/"
+                        <a href="https://github.com/purandare"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          Dr. Rahul Purandare
+                          <em>Dr. Rahul Purandare</em>
                         </a>
                       
                     </p>
@@ -475,7 +508,7 @@ var _hmt = _hmt || [];
                   M.Sc. in Computer Science
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2023 - 2026
                     </div>
                   
@@ -489,14 +522,14 @@ var _hmt = _hmt || [];
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Grade:</span>
-                      <span>3.94/4.00</span>
+                      <em>3.94/4.00</em>
                     </p>
                   
 
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Description:</span>
-                      <span>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</span>
+                      <em>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</em>
                     </p>
                   
 
@@ -511,7 +544,7 @@ var _hmt = _hmt || [];
                   M.Sc. in Computer Engineering (Software)
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2018 - 2021
                     </div>
                   
@@ -525,14 +558,14 @@ var _hmt = _hmt || [];
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Grade:</span>
-                      <span>18.69/20.00</span>
+                      <em>18.69/20.00</em>
                     </p>
                   
 
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Thesis:</span>
-                      <span>Development of a Constraint Solver to Determine the Domain for Complex Data Types</span>
+                      <em>Development of a Constraint Solver to Determine the Domain for Complex Data Types</em>
                     </p>
                   
 
@@ -541,11 +574,11 @@ var _hmt = _hmt || [];
                       <span class="about-label">Advisor:</span>
 
                       
-                        <a href="http://parsa.iust.ac.ir/"
+                        <a href="https://github.com/parsa-git/"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          Dr. Saeed Parsa
+                          <em>Dr. Saeed Parsa</em>
                         </a>
                       
                     </p>
@@ -560,7 +593,7 @@ var _hmt = _hmt || [];
                   B.Sc. in Computer Engineering (Software)
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2013 - 2017
                     </div>
                   
@@ -574,14 +607,14 @@ var _hmt = _hmt || [];
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Grade:</span>
-                      <span>17.29/20.00</span>
+                      <em>17.29/20.00</em>
                     </p>
                   
 
                   
                     <p class="mt-2 opacity-90">
                       <span class="about-label">Final Project:</span>
-                      <span>Study and Investigation of Routing Protocols in Wireless Sensor Networks</span>
+                      <em>Study and Investigation of Routing Protocols in Wireless Sensor Networks</em>
                     </p>
                   
 
@@ -594,7 +627,7 @@ var _hmt = _hmt || [];
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          Dr. Mojtaba Mansouri
+                          <em>Dr. Mojtaba Mansouri</em>
                         </a>
                       
                     </p>
@@ -611,7 +644,7 @@ var _hmt = _hmt || [];
   <!-- Skills -->
   
     <section class="mb-8 about-section" id="skills">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Skills</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Skills</h2>
 
       <div class="grid gap-6">
         
@@ -622,19 +655,19 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">Roslyn</span>
+                    <span class="badge badge-md about-pill cursor-default">Roslyn</span>
                   
-                    <span class="badge badge-primary cursor-default">LLVM/Clang</span>
+                    <span class="badge badge-md about-pill cursor-default">LLVM/Clang</span>
                   
-                    <span class="badge badge-primary cursor-default">Z3</span>
+                    <span class="badge badge-md about-pill cursor-default">Z3</span>
                   
-                    <span class="badge badge-primary cursor-default">KLEE</span>
+                    <span class="badge badge-md about-pill cursor-default">KLEE</span>
                   
-                    <span class="badge badge-primary cursor-default">SeaHorn</span>
+                    <span class="badge badge-md about-pill cursor-default">SeaHorn</span>
                   
-                    <span class="badge badge-primary cursor-default">Frama-C</span>
+                    <span class="badge badge-md about-pill cursor-default">Frama-C</span>
                   
-                    <span class="badge badge-primary cursor-default">DG</span>
+                    <span class="badge badge-md about-pill cursor-default">DG</span>
                   
                 </div>
               </div>
@@ -646,11 +679,11 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">AFL</span>
+                    <span class="badge badge-md about-pill cursor-default">AFL</span>
                   
-                    <span class="badge badge-primary cursor-default">NUnit</span>
+                    <span class="badge badge-md about-pill cursor-default">NUnit</span>
                   
-                    <span class="badge badge-primary cursor-default">IntelliTest</span>
+                    <span class="badge badge-md about-pill cursor-default">IntelliTest</span>
                   
                 </div>
               </div>
@@ -662,11 +695,11 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">C/C++</span>
+                    <span class="badge badge-md about-pill cursor-default">C/C++</span>
                   
-                    <span class="badge badge-primary cursor-default">C#</span>
+                    <span class="badge badge-md about-pill cursor-default">C#</span>
                   
-                    <span class="badge badge-primary cursor-default">Python</span>
+                    <span class="badge badge-md about-pill cursor-default">Python</span>
                   
                 </div>
               </div>
@@ -678,11 +711,11 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">HTML</span>
+                    <span class="badge badge-md about-pill cursor-default">HTML</span>
                   
-                    <span class="badge badge-primary cursor-default">CSS</span>
+                    <span class="badge badge-md about-pill cursor-default">CSS</span>
                   
-                    <span class="badge badge-primary cursor-default">JavaScript</span>
+                    <span class="badge badge-md about-pill cursor-default">JavaScript</span>
                   
                 </div>
               </div>
@@ -694,9 +727,9 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">Entity Framework Core</span>
+                    <span class="badge badge-md about-pill cursor-default">Entity Framework Core</span>
                   
-                    <span class="badge badge-primary cursor-default">ASP.NET Core (Web API, MVC)</span>
+                    <span class="badge badge-md about-pill cursor-default">ASP.NET Core (Web API, MVC)</span>
                   
                 </div>
               </div>
@@ -708,9 +741,9 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">Microsoft SQL Server</span>
+                    <span class="badge badge-md about-pill cursor-default">Microsoft SQL Server</span>
                   
-                    <span class="badge badge-primary cursor-default">PostgreSQL</span>
+                    <span class="badge badge-md about-pill cursor-default">PostgreSQL</span>
                   
                 </div>
               </div>
@@ -722,9 +755,9 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-primary cursor-default">Docker</span>
+                    <span class="badge badge-md about-pill cursor-default">Docker</span>
                   
-                    <span class="badge badge-primary cursor-default">Git</span>
+                    <span class="badge badge-md about-pill cursor-default">Git</span>
                   
                 </div>
               </div>
@@ -738,7 +771,7 @@ var _hmt = _hmt || [];
   <!-- Experience -->
   
     <section class="mb-8 about-section" id="experience">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Experience</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Experience</h2>
 
       <div class="grid gap-6">
         
@@ -749,7 +782,7 @@ var _hmt = _hmt || [];
                   Teaching Assistant
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Aug. 2025 – Present
                     </div>
                   
@@ -781,7 +814,7 @@ var _hmt = _hmt || [];
                   Graduate Research Assistant
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Aug. 2023 – Jul. 2025
                     </div>
                   
@@ -801,7 +834,7 @@ var _hmt = _hmt || [];
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          Dr. Rahul Purandare
+                          <em>Dr. Rahul Purandare</em>
                         </a>
                       
                     </p>
@@ -826,7 +859,7 @@ var _hmt = _hmt || [];
   <!-- Academic Service -->
   
     <section class="mb-8 about-section" id="academic-service">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Academic Service</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Academic Service</h2>
 
       <div class="grid gap-6">
         
@@ -837,7 +870,7 @@ var _hmt = _hmt || [];
                   Ad hoc Reviewer
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Jun. 2026
                     </div>
                   
@@ -863,7 +896,7 @@ var _hmt = _hmt || [];
   <!-- Certifications -->
   
     <section class="mb-8 about-section" id="certifications">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Certifications</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Certifications</h2>
 
       <div class="grid gap-6">
         
@@ -874,7 +907,7 @@ var _hmt = _hmt || [];
                   Types, Logic, and Formal Methods
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Jun. 2025
                     </div>
                   
@@ -894,7 +927,7 @@ var _hmt = _hmt || [];
                   Types, Semantics, and Applications
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Jun. 2024
                     </div>
                   
@@ -914,7 +947,7 @@ var _hmt = _hmt || [];
                   ASP.NET MVC
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Nov. 2020
                     </div>
                   
@@ -934,7 +967,7 @@ var _hmt = _hmt || [];
                   ASP.NET
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Oct. 2019
                     </div>
                   
@@ -954,7 +987,7 @@ var _hmt = _hmt || [];
                   C# Programming
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       Jan. 2019
                     </div>
                   
@@ -976,7 +1009,7 @@ var _hmt = _hmt || [];
   <!-- Honors & Awards -->
   
     <section class="mb-8 about-section" id="honors-and-awards">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Honors & Awards</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Honors & Awards</h2>
 
       <div class="grid gap-6">
         
@@ -987,7 +1020,7 @@ var _hmt = _hmt || [];
                   Othmer Fellowship
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2023 - 2026
                     </div>
                   
@@ -1007,7 +1040,7 @@ var _hmt = _hmt || [];
                   Ranked 1st among M.Sc. students in Computer Engineering
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2021
                     </div>
                   
@@ -1027,7 +1060,7 @@ var _hmt = _hmt || [];
                   Ranked 1st among B.Sc. students in Computer Engineering
 
                   
-                    <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">
+                    <div class="badge badge-sm lg:badge-md whitespace-nowrap about-period-badge">
                       2017
                     </div>
                   
@@ -1049,24 +1082,26 @@ var _hmt = _hmt || [];
   <!-- Languages -->
   
     <section class="mb-8 about-section" id="languages">
-      <h2 class="text-2xl font-bold mb-4 text-base-content">Languages</h2>
+      <h2 class="text-2xl font-bold mb-4 about-section-title">Languages</h2>
 
-      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300 p-6">
-        
-          <div class="flex flex-wrap gap-3">
-            
-              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
-                <span class="font-semibold">Persian</span>
-                <span class="text-xs opacity-70">(Native)</span>
-              </div>
-            
-              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
-                <span class="font-semibold">English</span>
-                <span class="text-xs opacity-70">(Fluent)</span>
-              </div>
-            
-          </div>
-        
+      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
+        <div class="card-body">
+          
+            <div class="flex flex-wrap gap-3">
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  <span class="font-semibold">Persian</span>
+                  <span class="opacity-70 ml-1">(Native)</span>
+                </span>
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  <span class="font-semibold">English</span>
+                  <span class="opacity-70 ml-1">(Fluent)</span>
+                </span>
+              
+            </div>
+          
+        </div>
       </div>
     </section>
   
