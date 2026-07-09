@@ -363,14 +363,22 @@ var _hmt = _hmt || [];
     color: hsl(var(--bc));
   }
 
-  .about-card a,
-  .about-advisor-link {
-    color: hsl(var(--in)) !important; /* same family as link-info */
+  .about-card a {
+    color: hsl(var(--in)) !important; /* same as link-info / project collaborators */
     text-decoration: none !important;
-    font-weight: 600;
+    font-weight: 400 !important;
   }
 
-  .about-card a:hover,
+  .about-card a:hover {
+    text-decoration: underline !important;
+  }
+
+  .about-advisor-link {
+    color: hsl(var(--in)) !important;
+    font-weight: 400 !important; /* advisor name is not bold */
+    text-decoration: none !important;
+  }
+
   .about-advisor-link:hover {
     text-decoration: underline !important;
   }
