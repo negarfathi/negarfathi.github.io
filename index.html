@@ -315,18 +315,19 @@ var _hmt = _hmt || [];
   -->
   <div class="lg:ml-80 px-4 py-8">
     <style>
-  /* Featured Publications */
-  .featured-pub-title {
-    color: #3730A3 !important; /* same as publication title */
+  /* Featured publication/project titles */
+  .featured-pub-title,
+  .featured-project-title {
+    color: #3730A3 !important;
   }
 
-  /* Featured Projects */
-  .featured-project-title {
-    color: #3730A3 !important; /* same as project title */
+  .featured-pub-title:hover,
+  .featured-project-title:hover {
+    color: #312E81 !important;
   }
 
   /*
-    Soft gray homepage style:
+    Soft professional gray style:
     Conference / Journal / Preprint
     DOI / Code / Video
     completed / in progress / neutral
@@ -343,8 +344,15 @@ var _hmt = _hmt || [];
     background-color: hsl(var(--b2)) !important;
     color: hsl(var(--bc)) !important;
     border: 1px solid hsl(var(--b3)) !important;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07) !important;
     font-weight: 600 !important;
+  }
+
+  .featured-btn-doi i,
+  .featured-btn-code i,
+  .featured-btn-video i,
+  .featured-project-code i {
+    color: #3730A3 !important;
   }
 
   .featured-pub-type:hover,
@@ -355,20 +363,33 @@ var _hmt = _hmt || [];
   .featured-project-status-progress:hover,
   .featured-project-status-neutral:hover,
   .featured-project-code:hover {
-    background-color: hsl(var(--b3)) !important;
-    color: hsl(var(--bc)) !important;
+    background-color: white !important;
+    color: #3730A3 !important;
+    border-color: #3730A3 !important;
+    box-shadow: 0 4px 12px rgba(55, 48, 163, 0.16) !important;
   }
 
-  /* View All buttons: dark gray */
+  .featured-pub-type:hover i,
+  .featured-btn-doi:hover i,
+  .featured-btn-code:hover i,
+  .featured-btn-video:hover i,
+  .featured-project-code:hover i {
+    color: #3730A3 !important;
+  }
+
+  /* View All buttons: same color as publication/project titles */
   .featured-view-btn {
-    background-color: #374151 !important;
+    background-color: #3730A3 !important;
     color: white !important;
     border: none !important;
+    box-shadow: 0 4px 12px rgba(55, 48, 163, 0.22) !important;
+    font-weight: 600 !important;
   }
 
   .featured-view-btn:hover {
-    background-color: #1F2937 !important;
+    background-color: #312E81 !important;
     color: white !important;
+    box-shadow: 0 6px 16px rgba(55, 48, 163, 0.28) !important;
   }
 </style>
 
