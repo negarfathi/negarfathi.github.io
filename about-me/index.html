@@ -314,45 +314,116 @@ var _hmt = _hmt || [];
   <div class="lg:ml-80 pt-20 px-4 py-8">
   -->
   <div class="lg:ml-80 px-4 py-8">
-    <!-- Jump to section -->
+    <style>
+  .about-card {
+    border: 1px solid hsl(var(--b3));
+    background-color: hsl(var(--b1));
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  }
+
+  .about-card:hover {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+  }
+
+  .about-jump-btn {
+    border: 1px solid hsl(var(--b3)) !important;
+    color: hsl(var(--bc)) !important;
+    background-color: transparent !important;
+  }
+
+  .about-jump-btn:hover {
+    background-color: hsl(var(--b2)) !important;
+  }
+
+  .about-cv-btn {
+    background-color: #2563EB !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  .about-cv-btn:hover {
+    background-color: #1D4ED8 !important;
+    color: white !important;
+  }
+
+  .about-pill {
+    background-color: hsl(var(--b2)) !important;
+    color: hsl(var(--bc)) !important;
+    border: 1px solid hsl(var(--b3)) !important;
+    font-weight: 500;
+  }
+
+  .about-period-badge {
+    background-color: hsl(var(--b2)) !important;
+    color: hsl(var(--bc)) !important;
+    border: 1px solid hsl(var(--b3)) !important;
+  }
+
+  .about-card a {
+    color: hsl(var(--in)) !important;
+    text-decoration: none !important;
+    font-weight: 500;
+  }
+
+  .about-card a:hover {
+    text-decoration: underline !important;
+  }
+
+  .about-section {
+    scroll-margin-top: 6rem;
+  }
+</style>
+
 <div class="container mx-auto px-4 py-8">
-<h1 class="text-3xl font-bold mb-8 text-base-content">About Me</h1>
-<p class="mb-2 text-base-content font-medium">Click a section below to jump to it:</p>
-<nav class="flex flex-wrap gap-2 mb-6">
   
-    <a href="#interests" class="btn btn-outline btn-secondary">Interests</a>
-  
-  
-    <a href="#education" class="btn btn-outline btn-secondary">Education</a>
-  
-  
-    <a href="#skills" class="btn btn-outline btn-secondary">Skills</a>
-  
-  
-    <a href="#experience" class="btn btn-outline btn-secondary">Experience</a>
-  
-  
-    <a href="#academic-service" class="btn btn-outline btn-secondary">Academic Service</a>
-  
-  
-    <a href="#certifications" class="btn btn-outline btn-secondary">Certifications</a>
-  
-  
-    <a href="#honors-and-awards" class="btn btn-outline btn-secondary">Honors & Awards</a>
-  
-  
-    <a href="#languages" class="btn btn-outline btn-secondary">Languages</a>
-  
-</nav>
-</div>
+
+  <h1 class="text-3xl font-bold mb-8 text-base-content">About Me</h1>
+
+  <!-- Jump to section -->
+  <p class="mb-3 text-base-content font-medium">Click a section below to jump to it:</p>
+
+  <nav class="flex flex-wrap gap-2 mb-8">
+    
+      <a href="#interests" class="btn btn-sm about-jump-btn">Interests</a>
+    
+
+    
+      <a href="#education" class="btn btn-sm about-jump-btn">Education</a>
+    
+
+    
+      <a href="#skills" class="btn btn-sm about-jump-btn">Skills</a>
+    
+
+    
+      <a href="#experience" class="btn btn-sm about-jump-btn">Experience</a>
+    
+
+    
+      <a href="#academic-service" class="btn btn-sm about-jump-btn">Academic Service</a>
+    
+
+    
+      <a href="#certifications" class="btn btn-sm about-jump-btn">Certifications</a>
+    
+
+    
+      <a href="#honors-and-awards" class="btn btn-sm about-jump-btn">Honors & Awards</a>
+    
+
+    
+      <a href="#languages" class="btn btn-sm about-jump-btn">Languages</a>
+    
+  </nav>
 
   <!-- Download CV -->
-  <div class="text-right mb-8 flex justify-end items-center space-x-2">
+  <div class="mb-8 flex justify-end items-center">
     
-      <a href="/assets/CV_NegarFathi.pdf" 
-         class="btn btn-primary glass-button inline-flex items-center space-x-2 px-4 py-2"
-         target="_blank" rel="noopener noreferrer" 
-         title="Download CV" 
+      <a href="/assets/CV_NegarFathi.pdf"
+         class="btn btn-sm about-cv-btn inline-flex items-center gap-2"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="Download CV"
          download>
         <i class="fa-solid fa-file-arrow-down"></i>
         <span>Download CV</span>
@@ -360,505 +431,724 @@ var _hmt = _hmt || [];
     
   </div>
 
-<!-- Interests -->
+  <!-- Interests -->
+  
+    <section class="mb-8 about-section" id="interests">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Interests</h2>
 
-<section class="mb-8" id="interests">
-  <h2 class="text-2xl font-bold mb-4 text-base-content">Interests</h2>
-  <div class="grid gap-6">
-    
-      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-        <div class="card-body">
-          <div class="flex flex-wrap gap-3">
-            
-              <span class="badge badge-primary cursor-default">Formal Methods</span>
-            
-              <span class="badge badge-primary cursor-default">Program Analysis</span>
-            
-              <span class="badge badge-primary cursor-default">Software Testing</span>
-            
-              <span class="badge badge-primary cursor-default">AI for Software Engineering</span>
-            
+      
+        <div class="card rounded-box about-card text-base-content transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-wrap gap-3">
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  Formal Methods
+                </span>
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  Program Analysis
+                </span>
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  Software Testing
+                </span>
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  AI for Software Engineering
+                </span>
+              
+            </div>
           </div>
         </div>
-      </div>
-    
-  </div>
-</section>
-
+      
+    </section>
+  
 
   <!-- Education -->
   
-  <section class="mb-8" id="education">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Education</h2>
-    <div class="grid gap-6">
-      
+    <section class="mb-8 about-section" id="education">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Education</h2>
+
+      <div class="grid gap-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                Ph.D. in Computer Science
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2023 - Present</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
-                
-                  <p class="mt-2 opacity-90">Grade: <em>3.87/4.00</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Research Focus: <em>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Advisor: <a href='https://rahulpurandare.unl.edu/' target='_blank' class='text-primary underline hover:text-secondary font-medium'>Dr. Rahul Purandare</a></p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Ph.D. in Computer Science
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2023 - Present
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Grade:</span>
+                      <em>3.87/4.00</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">
+                        Research Focus:
+                      </span>
+                      <em>Applying formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Advisor:</span>
+
+                      
+                        <a href="https://rahulpurandare.unl.edu/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                          Dr. Rahul Purandare
+                        </a>
+                      
+                    </p>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                M.Sc. in Computer Science
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2023 - 2026</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
-                
-                  <p class="mt-2 opacity-90">Grade: <em>3.94/4.00</em></p>
-                
-                
-                  <p class="mt-2 opacity-90"><em>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</em></p>
-                
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  M.Sc. in Computer Science
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2023 - 2026
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">University of Nebraska–Lincoln, Lincoln, NE, USA</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Grade:</span>
+                      <em>3.94/4.00</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">
+                        Description:
+                      </span>
+                      <em>Completed a course-based M.Sc. alongside Ph.D. studies with a focus on advanced computer science coursework.</em>
+                    </p>
+                  
+
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                M.Sc. in Computer Engineering (Software)
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2018 - 2021</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">Iran University of Science and Technology (IUST), Tehran, Tehran, Iran</p>
-                
-                  <p class="mt-2 opacity-90">Grade: <em>18.69/20.00</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Thesis: <em>Development of a Constraint Solver to Determine the Domain for Complex Data Types</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Advisor: <a href='http://parsa.iust.ac.ir/' target='_blank' class='text-primary underline hover:text-secondary font-medium'>Dr. Saeed Parsa</a></p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  M.Sc. in Computer Engineering (Software)
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2018 - 2021
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Iran University of Science and Technology (IUST), Tehran, Tehran, Iran</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Grade:</span>
+                      <em>18.69/20.00</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">
+                        Thesis:
+                      </span>
+                      <em>Development of a Constraint Solver to Determine the Domain for Complex Data Types</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Advisor:</span>
+
+                      
+                        <a href="http://parsa.iust.ac.ir/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                          Dr. Saeed Parsa
+                        </a>
+                      
+                    </p>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                B.Sc. in Computer Engineering (Software)
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2013 - 2017</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">Babol Noshirvani University of Technology (NIT), Babol, Mazandaran, Iran</p>
-                
-                  <p class="mt-2 opacity-90">Grade: <em>17.29/20.00</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Final Project: <em>Study and Investigation of Routing Protocols in Wireless Sensor Networks</em></p>
-                
-                
-                  <p class="mt-2 opacity-90">Advisor: <a href='https://member.nit.ac.ir/home.php?sp=370592' target='_blank' class='text-primary underline hover:text-secondary font-medium'>Dr. Mojtaba Mansouri</a></p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  B.Sc. in Computer Engineering (Software)
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2013 - 2017
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Babol Noshirvani University of Technology (NIT), Babol, Mazandaran, Iran</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Grade:</span>
+                      <em>17.29/20.00</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">
+                        Final Project:
+                      </span>
+                      <em>Study and Investigation of Routing Protocols in Wireless Sensor Networks</em>
+                    </p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">
+                      <span class="font-medium">Advisor:</span>
+
+                      
+                        <a href="https://member.nit.ac.ir/home.php?sp=370592"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                          Dr. Mojtaba Mansouri
+                        </a>
+                      
+                    </p>
+                  
+                </div>
               </div>
             </div>
-          </div>
+          
         
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 
   <!-- Skills -->
   
-  <section class="mb-8" id="skills">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Skills</h2>
-    <div class="grid gap-6">
-      
+    <section class="mb-8 about-section" id="skills">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Skills</h2>
+
+      <div class="grid gap-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Program Verification &amp; Analysis Tools</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">Roslyn</span>
-                
-                  <span class="badge badge-primary cursor-default">LLVM/Clang</span>
-                
-                  <span class="badge badge-primary cursor-default">Z3</span>
-                
-                  <span class="badge badge-primary cursor-default">KLEE</span>
-                
-                  <span class="badge badge-primary cursor-default">SeaHorn</span>
-                
-                  <span class="badge badge-primary cursor-default">Frama-C</span>
-                
-                  <span class="badge badge-primary cursor-default">DG</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Program Verification &amp; Analysis Tools</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Roslyn
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      LLVM/Clang
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Z3
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      KLEE
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      SeaHorn
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Frama-C
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      DG
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Software Testing &amp; Fuzzing</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">AFL</span>
-                
-                  <span class="badge badge-primary cursor-default">NUnit</span>
-                
-                  <span class="badge badge-primary cursor-default">IntelliTest</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Software Testing &amp; Fuzzing</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      AFL
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      NUnit
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      IntelliTest
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Programming Languages</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">C/C++</span>
-                
-                  <span class="badge badge-primary cursor-default">C#</span>
-                
-                  <span class="badge badge-primary cursor-default">Python</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Programming Languages</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      C/C++
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      C#
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Python
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Frontend Development</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">HTML</span>
-                
-                  <span class="badge badge-primary cursor-default">CSS</span>
-                
-                  <span class="badge badge-primary cursor-default">JavaScript</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Frontend Development</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      HTML
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      CSS
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      JavaScript
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Backend Development</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">Entity Framework Core</span>
-                
-                  <span class="badge badge-primary cursor-default">ASP.NET Core (Web API, MVC)</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Backend Development</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Entity Framework Core
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      ASP.NET Core (Web API, MVC)
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Databases</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">Microsoft SQL Server</span>
-                
-                  <span class="badge badge-primary cursor-default">PostgreSQL</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Databases</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Microsoft SQL Server
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      PostgreSQL
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold mb-4">Systems &amp; Development Tools</h2>
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-primary cursor-default">Docker</span>
-                
-                  <span class="badge badge-primary cursor-default">Git</span>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold mb-4">Systems &amp; Development Tools</h2>
+
+                <div class="flex flex-wrap gap-3">
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Docker
+                    </span>
+                  
+                    <span class="badge badge-md about-pill cursor-default">
+                      Git
+                    </span>
+                  
+                </div>
               </div>
             </div>
-          </div>
+          
         
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 
   <!-- Experience -->
   
-  <section class="mb-8" id="experience">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Experience</h2>
-    <div class="grid gap-6">
-      
+    <section class="mb-8 about-section" id="experience">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Experience</h2>
+
+      <div class="grid gap-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold">
-                Teaching Assistant
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Aug. 2025 – Present</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
-                
-                  <p class="mt-2 opacity-90">Assisted in teaching undergraduate and graduate computer science courses, supported students with course material, graded assignments and exams, and held office hours.</p>
-                
-                
-                  <p class="mt-2 opacity-90">Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Analysis of Algorithms)</p>
-                
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Teaching Assistant
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Aug. 2025 – Present
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90 whitespace-pre-line">Assisted in teaching undergraduate and graduate computer science courses, supported students with course material, graded assignments and exams, and held office hours.
+Courses: CSCE 322 (Programming Language Concepts); CSCE 423/823 (Design and Analysis of Algorithms)
+</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold">
-                Graduate Research Assistant
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Aug. 2023 – Jul. 2025</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
-                
-                  <p class="mt-2 opacity-90">Advisor: Dr. Rahul Purandare</p>
-                
-                
-                  <p class="mt-2 opacity-90">Applied formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.</p>
-                
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Graduate Research Assistant
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Aug. 2023 – Jul. 2025
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">University of Nebraska-Lincoln, Lincoln, NE, USA</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90 whitespace-pre-line">Advisor: Dr. Rahul Purandare
+Applied formal methods and program analysis techniques to verify safety and liveness properties, with a particular emphasis on termination and non-termination reasoning.
+</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
+          
         
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 
   <!-- Academic Service -->
   
-  <section class="mb-8" id="academic-service">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Academic Service</h2>
-    <div class="grid gap-6">
-      
+    <section class="mb-8 about-section" id="academic-service">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Academic Service</h2>
+
+      <div class="grid gap-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                Ad hoc Reviewer
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Jun. 2026</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">Machine Intelligence Research</p>
-                
-                  <p class="mt-2 opacity-90">Served as an invited ad hoc reviewer for Machine Intelligence Research, reviewing one submitted manuscript and providing peer-review feedback.</p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Ad hoc Reviewer
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Jun. 2026
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Machine Intelligence Research</p>
+                  
+
+                  
+                    <p class="mt-2 opacity-90">Served as an invited ad hoc reviewer for Machine Intelligence Research, reviewing one submitted manuscript and providing peer-review feedback.</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
+          
         
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 
   <!-- Certifications -->
   
-  <section class="mb-8" id="certifications">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Certifications</h2>
-    <div class="grid gap-6">
-      
-        <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-          <div class="card-body">
-            <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-              Types, Logic, and Formal Methods
-              
-                <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Jun. 2025</div>
-              
-            </h2>
-            <div class="text-base-content opacity-80">
-              <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), University of Oregon</p>
-              
-              
+    <section class="mb-8 about-section" id="certifications">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Certifications</h2>
+
+      <div class="grid gap-6">
+        
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Types, Logic, and Formal Methods
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Jun. 2025
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), University of Oregon</p>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      
-        <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-          <div class="card-body">
-            <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-              Types, Semantics, and Applications
-              
-                <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Jun. 2024</div>
-              
-            </h2>
-            <div class="text-base-content opacity-80">
-              <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), Boston University</p>
-              
-              
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Types, Semantics, and Applications
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Jun. 2024
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Oregon Programming Languages Summer School (OPLSS), Boston University</p>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      
-        <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-          <div class="card-body">
-            <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-              ASP.NET MVC
-              
-                <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Nov. 2020</div>
-              
-            </h2>
-            <div class="text-base-content opacity-80">
-              <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
-              
-              
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  ASP.NET MVC
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Nov. 2020
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      
-        <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-          <div class="card-body">
-            <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-              ASP.NET
-              
-                <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Oct. 2019</div>
-              
-            </h2>
-            <div class="text-base-content opacity-80">
-              <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
-              
-              
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  ASP.NET
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Oct. 2019
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      
-        <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-          <div class="card-body">
-            <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-              C# Programming
-              
-                <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">Jan. 2019</div>
-              
-            </h2>
-            <div class="text-base-content opacity-80">
-              <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
-              
-              
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  C# Programming
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      Jan. 2019
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Learning Information Technology Lab (LAITEC), Sharif University of Technology</p>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      
-    </div>
-  </section>
+          
+        
+      </div>
+    </section>
   
 
   <!-- Honors & Awards -->
   
-  <section class="mb-8" id="honors-and-awards">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Honors & Awards</h2>
-    <div class="grid gap-6">
-      
+    <section class="mb-8 about-section" id="honors-and-awards">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Honors & Awards</h2>
+
+      <div class="grid gap-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                Othmer Fellowship
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2023 - 2026</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">University of Nebraska-Lincoln</p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Othmer Fellowship
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2023 - 2026
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">University of Nebraska-Lincoln</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                Ranked 1st among M.Sc. students in Computer Engineering
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2021</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">Iran University of Science and Technology</p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Ranked 1st among M.Sc. students in Computer Engineering
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2021
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Iran University of Science and Technology</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
-                Ranked 1st among B.Sc. students in Computer Engineering
-                
-                  <div class="badge badge-primary badge-sm lg:badge-md whitespace-nowrap">2017</div>
-                
-              </h2>
-              <div class="text-base-content opacity-80">
-                <p class="font-medium">Babol Noshirvani University of Technology</p>
-                
+          
+            <div class="card rounded-box about-card text-base-content transition-all duration-300">
+              <div class="card-body">
+                <h2 class="card-title text-xl font-bold flex flex-wrap gap-2 items-start">
+                  Ranked 1st among B.Sc. students in Computer Engineering
+
+                  
+                    <span class="badge badge-sm lg:badge-md about-period-badge whitespace-nowrap">
+                      2017
+                    </span>
+                  
+                </h2>
+
+                <div class="text-base-content opacity-80">
+                  
+                    <p class="font-medium">Babol Noshirvani University of Technology</p>
+                  
+                </div>
               </div>
             </div>
-          </div>
+          
         
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 
   <!-- Languages -->
   
-  <section class="mb-8" id="languages">
-    <h2 class="text-2xl font-bold mb-4 text-base-content">Languages</h2>
-    <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300 p-6">
-      
-        <div class="flex flex-wrap gap-3">
+    <section class="mb-8 about-section" id="languages">
+      <h2 class="text-2xl font-bold mb-4 text-base-content">Languages</h2>
+
+      <div class="card rounded-box about-card text-base-content transition-all duration-300">
+        <div class="card-body">
           
-            <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
-              <span class="font-semibold">Persian</span>
-              <span class="text-xs opacity-70">(Native)</span>
-            </div>
-          
-            <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
-              <span class="font-semibold">English</span>
-              <span class="text-xs opacity-70">(Fluent)</span>
+            <div class="flex flex-wrap gap-3">
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  <span class="font-semibold">Persian</span>
+                  <span class="opacity-70 ml-1">(Native)</span>
+                </span>
+              
+                <span class="badge badge-md about-pill cursor-default">
+                  <span class="font-semibold">English</span>
+                  <span class="opacity-70 ml-1">(Fluent)</span>
+                </span>
+              
             </div>
           
         </div>
-      
-    </div>
-  </section>
+      </div>
+    </section>
   
 </div>
   </div>
