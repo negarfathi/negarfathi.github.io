@@ -345,17 +345,6 @@ var _hmt = _hmt || [];
     font-weight: 500 !important;
   }
 
-  .about-pill {
-    background-color: hsl(var(--b2)) !important;
-    color: hsl(var(--bc)) !important;
-    border: 1px solid hsl(var(--b3)) !important;
-    font-weight: 500;
-  }
-
-  .about-pill:hover {
-    background-color: hsl(var(--b3)) !important;
-  }
-
   .about-section {
     scroll-margin-top: 6rem;
   }
@@ -423,22 +412,26 @@ var _hmt = _hmt || [];
     <section class="mb-8 about-section" id="interests">
       <h2 class="text-2xl font-bold mb-4 about-section-title">Interests</h2>
 
-      <div class="grid gap-6">
+      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300 p-6">
         
-          <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-            <div class="card-body">
-              <div class="flex flex-wrap gap-3">
-                
-                  <span class="badge badge-md about-pill cursor-default">Formal Methods</span>
-                
-                  <span class="badge badge-md about-pill cursor-default">Program Analysis</span>
-                
-                  <span class="badge badge-md about-pill cursor-default">Software Testing</span>
-                
-                  <span class="badge badge-md about-pill cursor-default">AI for Software Engineering</span>
-                
+          <div class="flex flex-wrap gap-3">
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">Formal Methods</span>
               </div>
-            </div>
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">Program Analysis</span>
+              </div>
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">Software Testing</span>
+              </div>
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">AI for Software Engineering</span>
+              </div>
+            
           </div>
         
       </div>
@@ -493,7 +486,7 @@ var _hmt = _hmt || [];
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          <em>Dr. Rahul Purandare</em>
+                          Dr. Rahul Purandare
                         </a>
                       
                     </p>
@@ -578,7 +571,7 @@ var _hmt = _hmt || [];
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          <em>Dr. Saeed Parsa</em>
+                          Dr. Saeed Parsa
                         </a>
                       
                     </p>
@@ -627,7 +620,7 @@ var _hmt = _hmt || [];
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          <em>Dr. Mojtaba Mansouri</em>
+                          Dr. Mojtaba Mansouri
                         </a>
                       
                     </p>
@@ -655,19 +648,33 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">Roslyn</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Roslyn</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">LLVM/Clang</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">LLVM/Clang</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">Z3</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Z3</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">KLEE</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">KLEE</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">SeaHorn</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">SeaHorn</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">Frama-C</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Frama-C</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">DG</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">DG</span>
+                    </div>
                   
                 </div>
               </div>
@@ -679,11 +686,17 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">AFL</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">AFL</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">NUnit</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">NUnit</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">IntelliTest</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">IntelliTest</span>
+                    </div>
                   
                 </div>
               </div>
@@ -695,11 +708,17 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">C/C++</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">C/C++</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">C#</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">C#</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">Python</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Python</span>
+                    </div>
                   
                 </div>
               </div>
@@ -711,11 +730,17 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">HTML</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">HTML</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">CSS</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">CSS</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">JavaScript</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">JavaScript</span>
+                    </div>
                   
                 </div>
               </div>
@@ -727,9 +752,13 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">Entity Framework Core</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Entity Framework Core</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">ASP.NET Core (Web API, MVC)</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">ASP.NET Core (Web API, MVC)</span>
+                    </div>
                   
                 </div>
               </div>
@@ -741,9 +770,13 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">Microsoft SQL Server</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Microsoft SQL Server</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">PostgreSQL</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">PostgreSQL</span>
+                    </div>
                   
                 </div>
               </div>
@@ -755,9 +788,13 @@ var _hmt = _hmt || [];
 
                 <div class="flex flex-wrap gap-3">
                   
-                    <span class="badge badge-md about-pill cursor-default">Docker</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Docker</span>
+                    </div>
                   
-                    <span class="badge badge-md about-pill cursor-default">Git</span>
+                    <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                      <span class="font-semibold">Git</span>
+                    </div>
                   
                 </div>
               </div>
@@ -827,14 +864,14 @@ var _hmt = _hmt || [];
 
                   
                     <p class="mt-2 opacity-90">
-                      <span class="about-label">Advisor:</span>
+                      <span>Advisor:</span>
 
                       
                         <a href="https://rahulpurandare.unl.edu/"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="link link-info no-underline about-advisor-link">
-                          <em>Dr. Rahul Purandare</em>
+                          Dr. Rahul Purandare
                         </a>
                       
                     </p>
@@ -1084,24 +1121,22 @@ var _hmt = _hmt || [];
     <section class="mb-8 about-section" id="languages">
       <h2 class="text-2xl font-bold mb-4 about-section-title">Languages</h2>
 
-      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
-        <div class="card-body">
-          
-            <div class="flex flex-wrap gap-3">
-              
-                <span class="badge badge-md about-pill cursor-default">
-                  <span class="font-semibold">Persian</span>
-                  <span class="opacity-70 ml-1">(Native)</span>
-                </span>
-              
-                <span class="badge badge-md about-pill cursor-default">
-                  <span class="font-semibold">English</span>
-                  <span class="opacity-70 ml-1">(Fluent)</span>
-                </span>
-              
-            </div>
-          
-        </div>
+      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300 p-6">
+        
+          <div class="flex flex-wrap gap-3">
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">Persian</span>
+                <span class="text-xs opacity-70">(Native)</span>
+              </div>
+            
+              <div class="px-4 py-4 bg-base-200 rounded-md shadow-sm text-sm flex items-center gap-2 whitespace-nowrap">
+                <span class="font-semibold">English</span>
+                <span class="text-xs opacity-70">(Fluent)</span>
+              </div>
+            
+          </div>
+        
       </div>
     </section>
   
