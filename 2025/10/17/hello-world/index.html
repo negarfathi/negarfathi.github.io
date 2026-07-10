@@ -65,6 +65,7 @@ var _hmt = _hmt || [];
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <meta name="generator" content="Hexo 8.0.0"></head>
+
 <body class="min-h-screen bg-base-200">
 
   <!-- Sidebar for Desktop -->
@@ -184,44 +185,42 @@ var _hmt = _hmt || [];
   
 
 
-
   </aside>
-
-
 
   <!-- Drawer for Mobile -->
   <div class="drawer lg:hidden">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+
     <div class="drawer-content flex flex-col">
       <!-- Mobile navbar -->
       <div class="w-full navbar bg-base-300 fixed top-0 left-0 right-0 z-40">
         <label for="my-drawer" class="btn btn-square btn-ghost">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-               viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <svg xmlns="http://www.w3.org/2000/svg"
+               class="h-6 w-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor">
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </label>
+
         <div class="flex-1">
           <a href="/" class="btn btn-ghost normal-case text-sm lg:text-lg">
-          
+            
           </a>
         </div>
-        <div class="flex-none">
-          
 
-<select class="select select-bordered w-full max-w-xs" data-choose-theme>
-  
-</select>
-
-
-        </div>
+        <!-- Theme dropdown removed from mobile to remove the arrow -->
       </div>
     </div>
 
     <!-- Sidebar drawer panel for mobile -->
     <div class="drawer-side z-60">
       <label for="my-drawer" class="drawer-overlay"></label>
+
       <aside class="w-80 bg-base-200 min-h-full overflow-y-auto">
         <div class="relative h-full">
           <a href="/" class="block no-underline hover:bg-base-100 transition rounded-box">
@@ -337,11 +336,8 @@ var _hmt = _hmt || [];
     </div>
   </div>
 
-  <!-- Content area for Desktop -->
-  <!--NF
-  <div class="lg:ml-80 pt-20 px-4 py-8">
-  -->
-  <div class="lg:ml-80 px-4 py-8">
+  <!-- Content area -->
+  <div class="lg:ml-80 px-4 pt-20 pb-8 lg:pt-8">
     <div class="container mx-auto px-4 py-8 space-y-6">
   <!-- Post Header Card -->
   <div class="rounded-box card bg-base-100 shadow-lg text-base-content hover:shadow-xl transition-all duration-300 timeline-item">
@@ -1060,28 +1056,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
   </div>
 
-
-  <!-- Fixed top navbar for desktop -->
-  <!--NF
-  <div class="hidden lg:flex fixed top-0 left-80 right-0 z-50 bg-base-300 h-16 items-center px-4">
-    <div class="flex-1">
-      <a href="/" class="btn btn-ghost normal-case text-xl">
-      
-      </a>
-    </div>
-    <div class="flex-none">
-      
-
-<select class="select select-bordered w-full max-w-xs" data-choose-theme>
-  
-</select>
-
-
-    </div>
-  </div>
-  -->
-
-  <!-- Footer, 页面只出现一次 -->
+  <!-- Footer -->
   <footer class="mt-auto">
     <!-- Footer -->
 <footer class="footer footer-center sm:footer-horizontal p-4 bg-base-200 text-base-content">
@@ -1129,7 +1104,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 
   </footer>
 
-  <!-- back to top -->
+  <!-- Back to top -->
   <!-- 返回顶部按钮 -->
 <button id="back_to_top"
   class="btn btn-accent fixed bottom-10 right-10 opacity-0 pointer-events-none transition-opacity duration-300 z-50 "
@@ -1200,17 +1175,19 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
                 null,
                 false
               );
-              
+
               let textNode;
               const nodesToUpdate = [];
-              
+
               while (textNode = walker.nextNode()) {
-                if (textNode.nodeValue.includes('$$') && 
-                    textNode.parentNode.querySelector('mjx-container[display="true"]')) {
+                if (
+                  textNode.nodeValue.includes('$$') &&
+                  textNode.parentNode.querySelector('mjx-container[display="true"]')
+                ) {
                   nodesToUpdate.push(textNode);
                 }
               }
-              
+
               nodesToUpdate.forEach(node => {
                 node.nodeValue = node.nodeValue.replace(/\$\$/g, '');
               });
@@ -1220,7 +1197,6 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
       }
     };
   </script>
-
 
 </body>
 </html>
