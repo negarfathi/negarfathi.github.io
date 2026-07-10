@@ -354,56 +354,60 @@ var _hmt = _hmt || [];
   }
 
   .pub-type-badge {
-    background-color: #F472B6 !important;
+    background-color: #747C89 !important;
     color: white !important;
     border: none !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12) !important;
+    font-weight: 600 !important;
   }
 
   .pub-type-badge:hover {
-    background-color: #EC4899 !important;
+    background-color: #5F6875 !important;
     color: white !important;
   }
 
-  .btn-doi {
-    background-color: #3B82F6 !important;
-    color: white !important;
-    border: none !important;
-    box-shadow: 0 3px 10px rgba(59, 130, 246, 0.18) !important;
-    font-weight: 600 !important;
-  }
-
-  .btn-doi:hover {
-    background-color: #2563EB !important;
-    color: white !important;
-    box-shadow: 0 5px 14px rgba(59, 130, 246, 0.25) !important;
-  }
-
-  .btn-code {
-    background-color: #14B8A6 !important;
-    color: white !important;
-    border: none !important;
-    box-shadow: 0 3px 10px rgba(20, 184, 166, 0.18) !important;
-    font-weight: 600 !important;
-  }
-
-  .btn-code:hover {
-    background-color: #0D9488 !important;
-    color: white !important;
-    box-shadow: 0 5px 14px rgba(20, 184, 166, 0.25) !important;
-  }
-
+  .btn-doi,
+  .btn-code,
   .btn-video {
-    background-color: #F59E0B !important;
-    color: white !important;
-    border: none !important;
-    box-shadow: 0 3px 10px rgba(245, 158, 11, 0.18) !important;
+    background-color: #FFFFFF !important;
+    color: #374151 !important;
+    border: 1px solid #E5E7EB !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
     font-weight: 600 !important;
   }
 
+  .btn-doi i {
+    color: #2563EB !important;
+  }
+
+  .btn-code i {
+    color: #0D9488 !important;
+  }
+
+  .btn-video i {
+    color: #D97706 !important;
+  }
+
+  .btn-doi:hover,
+  .btn-code:hover,
   .btn-video:hover {
-    background-color: #D97706 !important;
-    color: white !important;
-    box-shadow: 0 5px 14px rgba(245, 158, 11, 0.25) !important;
+    background-color: #F9FAFB !important;
+    color: #111827 !important;
+    border-color: #D1D5DB !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.13) !important;
+    transform: translateY(-1px);
+  }
+
+  .btn-doi:hover i {
+    color: #1D4ED8 !important;
+  }
+
+  .btn-code:hover i {
+    color: #0F766E !important;
+  }
+
+  .btn-video:hover i {
+    color: #B45309 !important;
   }
 
   .publication-item {
@@ -411,8 +415,8 @@ var _hmt = _hmt || [];
   }
 
   .publication-item:target {
-    outline: 3px solid #14B8A6;
-    box-shadow: 0 0 0 6px rgba(20, 184, 166, 0.14);
+    outline: 3px solid #747C89;
+    box-shadow: 0 0 0 6px rgba(116, 124, 137, 0.15);
   }
 </style>
 
@@ -422,6 +426,7 @@ var _hmt = _hmt || [];
   <!-- Filters -->
   <div class="glass-card p-4 mb-8">
     <div class="flex flex-wrap gap-4 items-center">
+
       <!-- Year Filter -->
       <div class="form-control w-40">
         <select class="select select-bordered" id="yearFilter" name="yearFilter">
@@ -450,8 +455,14 @@ var _hmt = _hmt || [];
 
       <!-- Search -->
       <div class="form-control flex-grow min-w-[200px]">
-        <input type="text" placeholder="Search publications..." class="input input-bordered" id="searchInput" />
+        <input
+          type="text"
+          placeholder="Search publications..."
+          class="input input-bordered"
+          id="searchInput"
+        />
       </div>
+
     </div>
   </div>
 
@@ -461,12 +472,13 @@ var _hmt = _hmt || [];
       
 
       <div
-           id="Athena"
-           class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
-           data-year="2026"
-           data-category="formal methods">
+        id="Athena"
+        class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
+        data-year="2026"
+        data-category="formal methods">
 
         <div class="card-body p-6">
+
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
             <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
@@ -481,15 +493,16 @@ var _hmt = _hmt || [];
               
 
               
-                <span class="__dimensions_badge_embed__ z-50 relative"
-                      data-doi="10.1145/3808205"
-                      data-style="small_circle"
-                      data-hide-zero-citations="true">
+                <span
+                  class="__dimensions_badge_embed__ z-50 relative"
+                  data-doi="10.1145/3808205"
+                  data-style="small_circle"
+                  data-hide-zero-citations="true">
                 </span>
               
             </div>
           </div>
-  
+
           <!-- Authors and Metadata -->
           <div class="mb-4">
             
@@ -497,7 +510,7 @@ var _hmt = _hmt || [];
                 Negar Fathi, Hiroshi Unno, Tachio Terauchi, and Rahul Purandare
               </p>
             
-            
+
             <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/70">
               
                 <span class="flex items-center">
@@ -520,7 +533,7 @@ var _hmt = _hmt || [];
                 </span>
               
             </div>
-            
+
             <!-- Tags -->
             
               <div class="flex flex-wrap gap-2 mt-3">
@@ -548,7 +561,7 @@ var _hmt = _hmt || [];
               </div>
             
           </div>
-  
+
           <!-- Abstract -->
           
             <div class="prose max-w-none mb-4">
@@ -557,54 +570,59 @@ var _hmt = _hmt || [];
               </p>
             </div>
           
-  
+
           <!-- Action Buttons -->
-          <div class="card-actions justify-start">
+          <div class="card-actions justify-start gap-2">
             
-              <a href="https://doi.org/10.1145/3808205"
-                 class="btn btn-doi btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="DOI">
+              <a
+                href="https://doi.org/10.1145/3808205"
+                class="btn btn-doi btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DOI">
                 <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
 
             
-              <a href="https://github.com/negarfathi/Athena"
-                 class="btn btn-code btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="Code">
+              <a
+                href="https://github.com/negarfathi/Athena"
+                class="btn btn-code btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Code">
                 <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
             
 
             
-              <a href="https://youtu.be/MKwAvMAy57s?si=-VXzswPel9kur753"
-                 class="btn btn-video btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="Presentation Video">
+              <a
+                href="https://youtu.be/MKwAvMAy57s?si=-VXzswPel9kur753"
+                class="btn btn-video btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Presentation Video">
                 <i class="fa-solid fa-video mr-1"></i>
                 Video
               </a>
             
           </div>
+
         </div>
       </div>
     
       
 
       <div
-           id="COSMOS"
-           class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
-           data-year="2023"
-           data-category="software testing">
+        id="COSMOS"
+        class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
+        data-year="2023"
+        data-category="software testing">
 
         <div class="card-body p-6">
+
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
             <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
@@ -619,15 +637,16 @@ var _hmt = _hmt || [];
               
 
               
-                <span class="__dimensions_badge_embed__ z-50 relative"
-                      data-doi="10.1016/j.infsof.2022.107091"
-                      data-style="small_circle"
-                      data-hide-zero-citations="true">
+                <span
+                  class="__dimensions_badge_embed__ z-50 relative"
+                  data-doi="10.1016/j.infsof.2022.107091"
+                  data-style="small_circle"
+                  data-hide-zero-citations="true">
                 </span>
               
             </div>
           </div>
-  
+
           <!-- Authors and Metadata -->
           <div class="mb-4">
             
@@ -635,7 +654,7 @@ var _hmt = _hmt || [];
                 Akram Kalaee, Saeed Parsa, and Negar Fathi
               </p>
             
-            
+
             <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/70">
               
                 <span class="flex items-center">
@@ -658,7 +677,7 @@ var _hmt = _hmt || [];
                 </span>
               
             </div>
-            
+
             <!-- Tags -->
             
               <div class="flex flex-wrap gap-2 mt-3">
@@ -682,7 +701,7 @@ var _hmt = _hmt || [];
               </div>
             
           </div>
-  
+
           <!-- Abstract -->
           
             <div class="prose max-w-none mb-4">
@@ -691,26 +710,28 @@ var _hmt = _hmt || [];
               </p>
             </div>
           
-  
+
           <!-- Action Buttons -->
-          <div class="card-actions justify-start">
+          <div class="card-actions justify-start gap-2">
             
-              <a href="https://doi.org/10.1016/j.infsof.2022.107091"
-                 class="btn btn-doi btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="DOI">
+              <a
+                href="https://doi.org/10.1016/j.infsof.2022.107091"
+                class="btn btn-doi btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DOI">
                 <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
 
             
-              <a href="https://github.com/negarfathi/COSMOS"
-                 class="btn btn-code btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="Code">
+              <a
+                href="https://github.com/negarfathi/COSMOS"
+                class="btn btn-code btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Code">
                 <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
@@ -718,18 +739,20 @@ var _hmt = _hmt || [];
 
             
           </div>
+
         </div>
       </div>
     
       
 
       <div
-           id="EDFNet"
-           class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
-           data-year="2026"
-           data-category="computer vision">
+        id="EDFNet"
+        class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-[1.01] transition-all duration-300 border border-base-300 publication-item"
+        data-year="2026"
+        data-category="computer vision">
 
         <div class="card-body p-6">
+
           <!-- Title and Type Badge -->
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
             <h2 class="card-title text-xl font-bold pub-title leading-tight flex-1 mb-1 md:mb-0">
@@ -744,15 +767,16 @@ var _hmt = _hmt || [];
               
 
               
-                <span class="__dimensions_badge_embed__ z-50 relative"
-                      data-doi="10.48550/arXiv.2604.09694"
-                      data-style="small_circle"
-                      data-hide-zero-citations="true">
+                <span
+                  class="__dimensions_badge_embed__ z-50 relative"
+                  data-doi="10.48550/arXiv.2604.09694"
+                  data-style="small_circle"
+                  data-hide-zero-citations="true">
                 </span>
               
             </div>
           </div>
-  
+
           <!-- Authors and Metadata -->
           <div class="mb-4">
             
@@ -760,7 +784,7 @@ var _hmt = _hmt || [];
                 Negar Fathi
               </p>
             
-            
+
             <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/70">
               
                 <span class="flex items-center">
@@ -783,7 +807,7 @@ var _hmt = _hmt || [];
                 </span>
               
             </div>
-            
+
             <!-- Tags -->
             
               <div class="flex flex-wrap gap-2 mt-3">
@@ -815,7 +839,7 @@ var _hmt = _hmt || [];
               </div>
             
           </div>
-  
+
           <!-- Abstract -->
           
             <div class="prose max-w-none mb-4">
@@ -824,26 +848,28 @@ var _hmt = _hmt || [];
               </p>
             </div>
           
-  
+
           <!-- Action Buttons -->
-          <div class="card-actions justify-start">
+          <div class="card-actions justify-start gap-2">
             
-              <a href="https://doi.org/10.48550/arXiv.2604.09694"
-                 class="btn btn-doi btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="DOI">
+              <a
+                href="https://doi.org/10.48550/arXiv.2604.09694"
+                class="btn btn-doi btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DOI">
                 <i class="fa-solid fa-link mr-1"></i>
                 DOI
               </a>
             
 
             
-              <a href="https://github.com/negarfathi/EDFNet"
-                 class="btn btn-code btn-sm"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 title="Code">
+              <a
+                href="https://github.com/negarfathi/EDFNet"
+                class="btn btn-code btn-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Code">
                 <i class="fa-solid fa-code mr-1"></i>
                 Code
               </a>
@@ -851,6 +877,7 @@ var _hmt = _hmt || [];
 
             
           </div>
+
         </div>
       </div>
     
@@ -867,7 +894,7 @@ var _hmt = _hmt || [];
     const yearVal = yearFilter.value;
     const categoryVal = categoryFilter.value.toLowerCase();
     const searchVal = searchInput.value.toLowerCase();
-    
+
     let visibleCount = 0;
 
     publications.forEach(pub => {
@@ -886,10 +913,10 @@ var _hmt = _hmt || [];
         pub.style.display = 'none';
       }
     });
-    
+
     updateResultsCount(visibleCount, searchVal, yearVal, categoryVal);
   }
-  
+
   function updateResultsCount(count, search, year, category) {
     const filters = [search, year, category].filter(Boolean);
     console.log(`Showing ${count} publications${filters.length ? ' (filtered)' : ''}`);
