@@ -2299,21 +2299,46 @@ var _hmt = _hmt || [];
   </footer>
 
   <!-- Back to top -->
-  <!-- 返回顶部按钮 -->
+  <style>
+  #back_to_top {
+    background-color: #FFFFFF !important;
+    color: #3730A3 !important;
+    border: 1px solid #E5E7EB !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10) !important;
+  }
+
+  #back_to_top:hover {
+    background-color: #F9FAFB !important;
+    color: #312E81 !important;
+    border-color: #3730A3 !important;
+    box-shadow: 0 8px 20px rgba(55, 48, 163, 0.15) !important;
+    transform: translateY(-1px);
+  }
+
+  #back_to_top i {
+    color: #3730A3 !important;
+  }
+
+  #back_to_top:hover i {
+    color: #312E81 !important;
+  }
+</style>
+
+<!-- Back to top button -->
 <button id="back_to_top"
-  class="btn btn-accent fixed bottom-10 right-10 opacity-0 pointer-events-none transition-opacity duration-300 z-50 "
-  title="Back to top" aria-label="Back to top" tabindex="0">
+  class="btn fixed bottom-10 right-10 opacity-0 pointer-events-none transition-opacity duration-300 z-50"
+  title="Back to top"
+  aria-label="Back to top"
+  tabindex="0">
   <i class="fas fa-chevron-up"></i>
 </button>
 
 <script>
-  (function(){
+  (function() {
     const backToTopBtn = document.getElementById('back_to_top');
 
-    // 更新按钮颜色由daisyUI的btn自动管理，无需额外代码
-
     function toggleVisibility() {
-      if(window.scrollY > 100) {
+      if (window.scrollY > 100) {
         backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
         backToTopBtn.classList.add('opacity-100', 'pointer-events-auto');
       } else {
@@ -2327,7 +2352,7 @@ var _hmt = _hmt || [];
     });
 
     backToTopBtn.addEventListener('keypress', (e) => {
-      if(e.key === 'Enter' || e.key === ' ') {
+      if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         backToTopBtn.click();
       }
@@ -2335,11 +2360,9 @@ var _hmt = _hmt || [];
 
     window.addEventListener('scroll', toggleVisibility);
 
-    // 页面加载时判断一下
     toggleVisibility();
   })();
 </script>
-
 
   <!-- MathJax for mathematical formulas -->
   <script>
